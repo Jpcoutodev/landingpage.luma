@@ -1,0 +1,190 @@
+{
+    "meta": {
+        "title": "Dualis | Christian, Protestant and Catholic Dating App",
+        "desc": "Dualis: The best Christian dating app for Catholics, Protestants, and Christians of all denominations. Find serious friendship and your partner in faith for free.",
+        "ogTitle": "Dualis | Christian, Protestant and Catholic Dating App",
+        "ogDesc": "Find your partner in faith! The free app for serious dating and friendship among Christians, Catholics, and Protestants.",
+        "keywords": "christian dating app, protestant dating, catholic dating, christian chat, christian friendship, gospel app, free christian dating, dualis"
+    },
+    "nav": {
+        "denominations": "Denominations",
+        "features": "Features",
+        "stories": "Stories",
+        "downloadBtn": "Download Free"
+    },
+    "hero": {
+        "title": "Find your partner with the same <span class=\"gradient-text\">faith and purpose</span>",
+        "subtitle": "Connecting Christians around the world who are seeking a serious relationship based on faith and Christian values.",
+        "downloadBtn": "Download Now",
+        "scroll": "Scroll to discover"
+    },
+    "benefits": {
+        "tag": "Why choose us?",
+        "title": "Connect with Christians who <span class=\"gradient-text\">share your values</span>",
+        "items": {
+            "0": {
+                "title": "Local and international Christian singles",
+                "desc": "Find people in your city or connect with Christians around the world"
+            },
+            "1": {
+                "title": "Free sign up with unlimited matches",
+                "desc": "Create your profile and review your matches without paying anything"
+            },
+            "2": {
+                "title": "Advanced messaging for meaningful conversations",
+                "desc": "Features that make it easier to get to know someone deeply"
+            },
+            "3": {
+                "title": "Safe and faith-centered environment",
+                "desc": "Moderated community focused on serious relationships"
+            }
+        }
+    },
+    "howItWorks": {
+        "tag": "3 Simple Steps",
+        "title": "How It <span class=\"gradient-text\">Works</span>",
+        "desc": "Start your journey on Dualis right now",
+        "steps": {
+            "0": {
+                "title": "Create your profile",
+                "desc": "Sign up easily and add your best photos"
+            },
+            "1": {
+                "title": "View Christian profiles",
+                "desc": "Browse profiles aligned with your faith and values"
+            },
+            "2": {
+                "title": "Start chatting",
+                "desc": "Send messages or interests and start real connections"
+            }
+        },
+        "ctaBtn": "Start Now"
+    },
+    "denominations": {
+        "tag": "Your Community",
+        "title": "Christian <span class=\"gradient-text\">Dating</em> Community",
+        "desc": "Connect with Christians from your denomination:",
+        "items": {
+            "0": {
+                "title": "Catholic",
+                "desc": "Thousands of Catholics seeking connections"
+            },
+            "1": {
+                "title": "Protestant / Evangelical",
+                "desc": "Vibrant community of Protestants and Evangelicals"
+            },
+            "2": {
+                "title": "Orthodox",
+                "desc": "Eastern Christian tradition and faith"
+            },
+            "3": {
+                "title": "Other Denominations",
+                "desc": "Baptist, Presbyterian, Lutheran and many others"
+            }
+        }
+    },
+    "features": {
+        "tag": "Features",
+        "title": "Everything For <span class=\"gradient-text\">Real Connections</span>",
+        "desc": "A safe, respectful environment designed for Christians",
+        "items": {
+            "0": {
+                "title": "Interest by Values",
+                "desc": "Smart algorithm that connects people with similar values and faith"
+            },
+            "1": {
+                "title": "Safe Chat",
+                "desc": "Chat peacefully in a moderated and respectful environment"
+            },
+            "2": {
+                "title": "Verified Profiles",
+                "desc": "Verification system to guarantee real and committed people"
+            },
+            "3": {
+                "title": "Advanced Filters",
+                "desc": "Find by denomination, age, location and interests"
+            }
+        }
+    },
+    "stories": {
+        "tag": "Success Stories",
+        "title": "Real people finding <span class=\"gradient-text\">true love</span>",
+        "desc": "We share stories of users who found their ideal match through Dualis",
+        "items": {
+            "0": {
+                "quote": "\"We met on Dualis and from the first conversation we felt a special connection. Today we are engaged and planning our church wedding!\"",
+                "author": "Fernanda & Ricardo",
+                "location": "Catholics • São Paulo"
+            },
+            "1": {
+                "quote": "\"After years looking for someone who shared my faith, I found Lucas. He is the answer to my prayers!\"",
+                "author": "Camila & Lucas",
+                "location": "Protestants • Rio de Janeiro"
+            },
+            "2": {
+                "quote": "\"I loved being able to filter by denomination! I found people who understand my faith and my values. I made amazing friends!\"",
+                "author": "Juliana Santos",
+                "location": "Assembly of God • Belo Horizonte"
+            },
+            "3": {
+                "quote": "\"After my divorce, I thought I wouldn't find anyone. Dualis showed me that God still had plans for me. I found my Maria!\"",
+                "author": "Roberto & Maria",
+                "location": "Catholics • Curitiba"
+            },
+            "4": {
+                "quote": "\"Unlike other apps, people here are really looking for something serious. The environment is respectful and centered on faith.\"",
+                "author": "Pedro Almeida",
+                "location": "Baptist • Salvador"
+            }
+        },
+        "socialProof": {
+            "rating": "4.8★",
+            "label": "Play Store Rating"
+        }
+    },
+    "download": {
+        "tag": "Start Today",
+        "title": "Start on the <span class=\"gradient-text\">Free Plan</span>",
+        "desc1": "Download now and connect with amazing Christians from your denomination.",
+        "desc2": "We believe love should be accessible. That's why on the Free Plan you have:",
+        "features": {
+            "0": {
+                "title": "10 \"Hellos\" per day",
+                "desc": "to start conversations with someone you like."
+            },
+            "1": {
+                "title": "Swipe through 50 profiles daily",
+                "desc": "to find your match."
+            },
+            "2": {
+                "title": "Reveal 1 \"Like\" per day",
+                "desc": "(discover who liked you)."
+            },
+            "3": {
+                "title": "Automatic Renewal",
+                "desc": "After 24 hours, your limits are renewed."
+            }
+        },
+        "storeBtn": {
+            "labelSmall": "Available on",
+            "labelStrong": "Google Play"
+        },
+        "webBtn": {
+            "labelSmall": "Access Now",
+            "labelStrong": "Web Version"
+        }
+    },
+    "footer": {
+        "brandDesc": "Connecting Christians with love and faith.",
+        "links": {
+            "terms": "Terms of Use",
+            "privacy": "Privacy",
+            "security": "Security (CSAE)",
+            "contact": "Contact"
+        },
+        "copyright": "© 2026 Dualis. All rights reserved. Made with ❤️ and faith."
+    },
+    "alert": {
+        "webSoon": "The Web version will be available soon!\\n\\nFor now, enjoy our Android app."
+    }
+}

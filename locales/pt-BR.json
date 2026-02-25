@@ -1,0 +1,190 @@
+{
+    "meta": {
+        "title": "Dualis | App de Namoro Cristão, Evangélico e Católico",
+        "desc": "Dualis: O melhor app de namoro cristão para católicos, evangélicos e cristãos de todas as denominações. Encontre amizade séria e seu par na fé gratuitamente.",
+        "ogTitle": "Dualis | App de Namoro Cristão, Evangélico e Católico",
+        "ogDesc": "Encontre seu par na fé! O app gratuito para namoro sério e amizade entre cristãos, católicos e evangélicos.",
+        "keywords": "app namoro cristão, namoro evangélico, namoro católico, chat cristão, amizade cristã, app gospel, relacionamento cristão gratuito, dualis"
+    },
+    "nav": {
+        "denominations": "Denominações",
+        "features": "Recursos",
+        "stories": "Histórias",
+        "downloadBtn": "Baixar Grátis"
+    },
+    "hero": {
+        "title": "Encontre seu parceiro com a mesma <span class=\"gradient-text\">fé e propósito</span>",
+        "subtitle": "Conectando cristãos ao redor do mundo que buscam um relacionamento sério baseado em fé e valores cristãos.",
+        "downloadBtn": "Baixe Agora",
+        "scroll": "Role para descobrir"
+    },
+    "benefits": {
+        "tag": "Por que nos escolher?",
+        "title": "Conecte-se com cristãos que <span class=\"gradient-text\">compartilham seus valores</span>",
+        "items": {
+            "0": {
+                "title": "Solteiros cristãos locais e internacionais",
+                "desc": "Encontre pessoas da sua cidade ou conecte-se com cristãos ao redor do mundo"
+            },
+            "1": {
+                "title": "Cadastro gratuito com matches ilimitados",
+                "desc": "Crie seu perfil e revise seus matches sem pagar nada"
+            },
+            "2": {
+                "title": "Mensagens avançadas para conversas significativas",
+                "desc": "Recursos que facilitam conhecer alguém em profundidade"
+            },
+            "3": {
+                "title": "Ambiente seguro e centrado na fé",
+                "desc": "Comunidade moderada com foco em relacionamentos sérios"
+            }
+        }
+    },
+    "howItWorks": {
+        "tag": "3 Passos Simples",
+        "title": "Como <span class=\"gradient-text\">Funciona</span>",
+        "desc": "Comece sua jornada no Dualis agora mesmo",
+        "steps": {
+            "0": {
+                "title": "Crie seu perfil",
+                "desc": "Cadastre-se facilmente e adicione suas melhores fotos"
+            },
+            "1": {
+                "title": "Veja perfis cristãos",
+                "desc": "Navegue por perfis alinhados com sua fé e valores"
+            },
+            "2": {
+                "title": "Comece a conversar",
+                "desc": "Envie mensagens ou interesses e inicie conexões reais"
+            }
+        },
+        "ctaBtn": "Começar Agora"
+    },
+    "denominations": {
+        "tag": "Sua Comunidade",
+        "title": "Comunidade de <span class=\"gradient-text\">relacionamento cristão</span>",
+        "desc": "Conecte-se com cristãos da sua denominação:",
+        "items": {
+            "0": {
+                "title": "Católica",
+                "desc": "Milhares de católicos buscando conexões"
+            },
+            "1": {
+                "title": "Evangélica",
+                "desc": "Comunidade vibrante de evangélicos"
+            },
+            "2": {
+                "title": "Ortodoxa",
+                "desc": "Tradição e fé cristã oriental"
+            },
+            "3": {
+                "title": "Outras Denominações",
+                "desc": "Batista, Presbiteriana, Luterana e muitas outras"
+            }
+        }
+    },
+    "features": {
+        "tag": "Funcionalidades",
+        "title": "Tudo Para <span class=\"gradient-text\">Conexões Reais</span>",
+        "desc": "Ambiente seguro, respeitoso e projetado para cristãos",
+        "items": {
+            "0": {
+                "title": "Interesse por Valores",
+                "desc": "Algoritmo inteligente que conecta pessoas com valores e fé semelhantes"
+            },
+            "1": {
+                "title": "Chat Seguro",
+                "desc": "Converse com tranquilidade em ambiente moderado e respeitoso"
+            },
+            "2": {
+                "title": "Perfis Verificados",
+                "desc": "Sistema de verificação para garantir pessoas reais e comprometidas"
+            },
+            "3": {
+                "title": "Filtros Avançados",
+                "desc": "Encontre por denominação, idade, localização e interesses"
+            }
+        }
+    },
+    "stories": {
+        "tag": "Histórias de Sucesso",
+        "title": "Pessoas reais encontrando <span class=\"gradient-text\">amor verdadeiro</span>",
+        "desc": "Compartilhamos histórias de usuários que encontraram seu par ideal através do Dualis",
+        "items": {
+            "0": {
+                "quote": "\"Nos conhecemos no Dualis e desde a primeira conversa sentimos uma conexão especial. Hoje estamos noivos e planejando nosso casamento na igreja!\"",
+                "author": "Fernanda & Ricardo",
+                "location": "Católicos • São Paulo"
+            },
+            "1": {
+                "quote": "\"Depois de anos buscando alguém que compartilhasse minha fé, encontrei o Lucas. Ele é a resposta às minhas orações!\"",
+                "author": "Camila & Lucas",
+                "location": "Evangélicos • Rio de Janeiro"
+            },
+            "2": {
+                "quote": "\"Adorei poder filtrar por denominação! Encontrei pessoas que entendem minha fé e meus valores. Fiz amizades incríveis!\"",
+                "author": "Juliana Santos",
+                "location": "Assembleia • Belo Horizonte"
+            },
+            "3": {
+                "quote": "\"Após o divórcio, achei que não encontraria alguém. O Dualis me mostrou que Deus ainda tinha planos para mim. Encontrei minha Maria!\"",
+                "author": "Roberto & Maria",
+                "location": "Católicos • Curitiba"
+            },
+            "4": {
+                "quote": "\"Diferente de outros apps, aqui as pessoas realmente buscam algo sério. O ambiente é respeitoso e centrado na fé.\"",
+                "author": "Pedro Almeida",
+                "location": "Batista • Salvador"
+            }
+        },
+        "socialProof": {
+            "rating": "4.8★",
+            "label": "Avaliação na Loja"
+        }
+    },
+    "download": {
+        "tag": "Comece Hoje",
+        "title": "Inicie no <span class=\"gradient-text\">Plano Gratuito</span>",
+        "desc1": "Baixe agora e conecte-se com cristãos incríveis da sua denominação.",
+        "desc2": "Acreditamos que o amor deve ser acessível. Por isso, no Plano Gratuito você tem:",
+        "features": {
+            "0": {
+                "title": "10 \"Olás\" por dia",
+                "desc": "para iniciar conversas com quem você gostou."
+            },
+            "1": {
+                "title": "Passar por 50 perfis diariamente",
+                "desc": "para encontrar seu par."
+            },
+            "2": {
+                "title": "Revelar 1 \"Gostei\" por dia",
+                "desc": "(descobrir quem curtiu você)."
+            },
+            "3": {
+                "title": "Renovação Automática",
+                "desc": "Após 24 horas, seus limites se renovam."
+            }
+        },
+        "storeBtn": {
+            "labelSmall": "Disponível no",
+            "labelStrong": "Google Play"
+        },
+        "webBtn": {
+            "labelSmall": "Acesse Agora",
+            "labelStrong": "Versão Web"
+        }
+    },
+    "footer": {
+        "brandDesc": "Conectando cristãos com amor e fé.",
+        "links": {
+            "terms": "Termos de Uso",
+            "privacy": "Privacidade",
+            "security": "Segurança (CSAE)",
+            "contact": "Contato"
+        },
+        "copyright": "© 2026 Dualis. Todos os direitos reservados. Feito com ❤️ e fé."
+    },
+    "alert": {
+        "webSoon": "Em breve a versão Web estará disponível!\\n\\nPor enquanto, aproveite nosso aplicativo no Android."
+    }
+}
