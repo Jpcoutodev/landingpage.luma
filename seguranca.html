@@ -108,11 +108,35 @@
                             d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
                         </path>
                     </svg>
-                    <select id="language-select" class="lang-select">
-                        <option value="pt-BR">🇧🇷 PT</option>
-                        <option value="en">🇺🇸 EN</option>
-                        <option value="es">🇪🇸 ES</option>
-                    </select>
+                    <div class="lang-selector-dropdown">
+                        <button class="lang-selector-toggle" id="lang-selector-toggle">
+                            <span class="lang-selector-flag" id="lang-selector-flag">🇧🇷</span>
+                            <span class="lang-selector-code" id="lang-selector-code">PT</span>
+                        </button>
+                        <div class="lang-selector-menu" id="lang-selector-menu">
+                            <button class="lang-selector-item" data-lang-btn="pt-BR">
+                                <span class="lang-selector-item-flag">🇧🇷</span>
+                                <div class="lang-selector-item-info">
+                                    <span class="lang-selector-item-code">PT</span>
+                                    <span class="lang-selector-item-name">Português</span>
+                                </div>
+                            </button>
+                            <button class="lang-selector-item" data-lang-btn="en">
+                                <span class="lang-selector-item-flag">🇺🇸</span>
+                                <div class="lang-selector-item-info">
+                                    <span class="lang-selector-item-code">EN</span>
+                                    <span class="lang-selector-item-name">English</span>
+                                </div>
+                            </button>
+                            <button class="lang-selector-item" data-lang-btn="es">
+                                <span class="lang-selector-item-flag">🇪🇸</span>
+                                <div class="lang-selector-item-info">
+                                    <span class="lang-selector-item-code">ES</span>
+                                    <span class="lang-selector-item-name">Español</span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <a href="index.html" class="logo">
                     <img src="logo-v2.png" alt="Dualis" class="logo-img">
