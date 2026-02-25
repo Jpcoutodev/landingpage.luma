@@ -127,17 +127,34 @@
 
     <!-- Header -->
     <header class="header">
-        <div class="container">
-            <a href="index.html" class="logo">
-                <img src="logo-v2.png" alt="Dualis" class="logo-img">
-            </a>
+        <div class="container header-layout">
+            <div class="header-left">
+                <div class="lang-selector-nav">
+                    <svg class="lang-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path
+                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                        </path>
+                    </svg>
+                    <select id="language-select" class="lang-select">
+                        <option value="pt-BR">🇧🇷 PT</option>
+                        <option value="en">🇺🇸 EN</option>
+                        <option value="es">🇪🇸 ES</option>
+                    </select>
+                </div>
+                <a href="index.html" class="logo">
+                    <img src="logo-v2.png" alt="Dualis" class="logo-img">
+                </a>
+            </div>
             <nav class="nav">
-                <a href="index.html">Início</a>
-                <a href="termos.html">Termos</a>
-                <a href="privacidade.html">Privacidade</a>
+                <a href="index.html" data-i18n="navSecondary.home">Início</a>
+                <a href="termos.html" data-i18n="navSecondary.terms">Termos</a>
+                <a href="privacidade.html" data-i18n="navSecondary.privacy">Privacidade</a>
             </nav>
             <a href="index.html#download" class="btn btn-glow mobile-hide">
-                <span>Baixar App</span>
+                <span data-i18n="navSecondary.downloadApp">Baixar App</span>
             </a>
             <button class="mobile-menu" aria-label="Menu">
                 <span></span><span></span><span></span>
@@ -147,69 +164,74 @@
 
     <main class="container">
         <div class="page-header">
-            <h1 class="hero-title">Exclusão de <span class="gradient-text">Conta e Dados</span></h1>
-            <p class="hero-subtitle" style="margin: 0 auto;">Saiba como solicitar a exclusão da sua conta no app Dualis
-            </p>
+            <h1 class="hero-title"><span data-i18n="deleteAccount.heroTitle1">Exclusão de </span><span
+                    class="gradient-text" data-i18n="deleteAccount.heroTitle2">Conta e Dados</span></h1>
+            <p class="hero-subtitle" style="margin: 0 auto;" data-i18n="deleteAccount.heroSubtitle">Saiba como solicitar
+                a exclusão da sua conta no app Dualis</p>
         </div>
 
         <div class="content-section">
             <div class="container" style="max-width: 800px;">
 
                 <div class="content-block">
-                    <h3>Como solicitar a exclusão</h3>
-                    <p>O <strong>Dualis</strong> valoriza sua privacidade e oferece controle total sobre seus
-                        dados. Se você deseja excluir permanentemente sua conta e todos os dados associados, siga as
-                        etapas abaixo:</p>
+                    <h3 data-i18n="deleteAccount.sections.1.title">Como solicitar a exclusão</h3>
+                    <p data-i18n="deleteAccount.sections.1.intro">O <strong>Dualis</strong> valoriza sua privacidade e
+                        oferece controle total sobre seus dados. Se você deseja excluir permanentemente sua conta e
+                        todos os dados associados, siga as etapas abaixo:</p>
 
                     <ul class="steps-list">
                         <li>
-                            <strong>Envie sua solicitação</strong>
-                            <p>Clique no botão abaixo ou envie um e-mail diretamente para <a
-                                    href="mailto:dualis.love.app@gmail.com"
-                                    style="color: var(--accent);">coutodev7@gmail.com</a>.</p>
+                            <strong data-i18n="deleteAccount.sections.1.step1Title">Envie sua solicitação</strong>
+                            <p data-i18n="deleteAccount.sections.1.step1Desc">Clique no botão abaixo ou envie um e-mail
+                                diretamente para <a href="mailto:dualis.love.app@gmail.com"
+                                    style="color: var(--accent);">dualis.love.app@gmail.com</a>.</p>
                         </li>
                         <li>
-                            <strong>Identificação</strong>
-                            <p>No assunto do e-mail, coloque "Exclusão de Conta". No corpo, informe o endereço de e-mail
-                                associado à sua conta no aplicativo.</p>
+                            <strong data-i18n="deleteAccount.sections.1.step2Title">Identificação</strong>
+                            <p data-i18n="deleteAccount.sections.1.step2Desc">No assunto do e-mail, coloque "Exclusão de
+                                Conta". No corpo, informe o endereço de e-mail associado à sua conta no aplicativo.</p>
                         </li>
                         <li>
-                            <strong>Confirmação</strong>
-                            <p>Nossa equipe processará sua solicitação e removerá seus dados permanentemente em até 7
-                                dias úteis.</p>
+                            <strong data-i18n="deleteAccount.sections.1.step3Title">Confirmação</strong>
+                            <p data-i18n="deleteAccount.sections.1.step3Desc">Nossa equipe processará sua solicitação e
+                                removerá seus dados permanentemente em até 7 dias úteis.</p>
                         </li>
                     </ul>
 
                     <div style="text-align: center;">
-                        <a href="mailto:dualis.love.app@gmail.com?subject=Exclusão de Conta Dualis&body=Olá, gostaria de solicitar a exclusão da minha conta. Meu e-mail cadastrado é: "
-                            class="delete-btn">
+                        <a id="delete-email-btn"
+                            href="mailto:dualis.love.app@gmail.com?subject=Exclusão de Conta Dualis&body=Olá, gostaria de solicitar a exclusão da minha conta. Meu e-mail cadastrado é: "
+                            class="delete-btn" data-i18n="deleteAccount.sections.1.btnText">
                             Solicitar Exclusão por E-mail
                         </a>
                     </div>
                 </div>
 
                 <div class="content-block">
-                    <h3>Quais dados são excluídos?</h3>
-                    <p>Ao processar sua solicitação, os seguintes dados serão permanentemente removidos de nossos
-                        servidores:</p>
+                    <h3 data-i18n="deleteAccount.sections.2.title">Quais dados são excluídos?</h3>
+                    <p data-i18n="deleteAccount.sections.2.intro">Ao processar sua solicitação, os seguintes dados serão
+                        permanentemente removidos de nossos servidores:</p>
                     <ul style="list-style-type: disc; padding-left: 20px; color: var(--text-muted);">
-                        <li>Informações do perfil (nome, bio, idade, denominação)</li>
-                        <li>Fotos e imagens enviadas</li>
-                        <li>Histórico de mensagens e conversas</li>
-                        <li>Histórico de matches e curtidas</li>
-                        <li>Dados de localização e preferências</li>
+                        <li data-i18n="deleteAccount.sections.2.li1">Informações do perfil (nome, bio, idade,
+                            denominação)</li>
+                        <li data-i18n="deleteAccount.sections.2.li2">Fotos e imagens enviadas</li>
+                        <li data-i18n="deleteAccount.sections.2.li3">Histórico de mensagens e conversas</li>
+                        <li data-i18n="deleteAccount.sections.2.li4">Histórico de matches e curtidas</li>
+                        <li data-i18n="deleteAccount.sections.2.li5">Dados de localização e preferências</li>
                     </ul>
                 </div>
 
                 <div class="content-block">
-                    <h3>Retenção de Dados</h3>
-                    <p>Alguns dados podem ser retidos temporariamente ou permanentemente apenas quando exigido por lei
-                        ou para fins legítimos de segurança:</p>
+                    <h3 data-i18n="deleteAccount.sections.3.title">Retenção de Dados</h3>
+                    <p data-i18n="deleteAccount.sections.3.intro">Alguns dados podem ser retidos temporariamente ou
+                        permanentemente apenas quando exigido por lei ou para fins legítimos de segurança:</p>
                     <ul style="list-style-type: disc; padding-left: 20px; color: var(--text-muted);">
-                        <li><strong>Logs de Acesso:</strong> Registros de conexão (IP, data e hora) são mantidos pelo
-                            prazo legal exigido pelo Marco Civil da Internet (Brasil).</li>
-                        <li><strong>Segurança:</strong> Dados associados a contas banidas por violação de termos podem
-                            ser mantidos para prevenir nova criação de contas indevidas.</li>
+                        <li data-i18n="deleteAccount.sections.3.li1"><strong>Logs de Acesso:</strong> Registros de
+                            conexão (IP, data e hora) são mantidos pelo prazo legal exigido pelo Marco Civil da Internet
+                            (Brasil).</li>
+                        <li data-i18n="deleteAccount.sections.3.li2"><strong>Segurança:</strong> Dados associados a
+                            contas banidas por violação de termos podem ser mantidos para prevenir nova criação de
+                            contas indevidas.</li>
                     </ul>
                 </div>
 
@@ -223,22 +245,38 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <img src="logo-v2.png" alt="Dualis" class="footer-logo">
-                    <p>Conectando cristãos com amor e fé.</p>
+                    <p data-i18n="footer.brandDesc">Conectando cristãos com amor e fé.</p>
                 </div>
                 <div class="footer-links">
-                    <a href="termos.html">Termos de Uso</a>
-                    <a href="privacidade.html">Privacidade</a>
-                    <a href="seguranca.html">Segurança (CSAE)</a>
-                    <a href="mailto:dualis.love.app@gmail.com">Contato</a>
+                    <a href="termos.html" data-i18n="footer.links.terms">Termos de Uso</a>
+                    <a href="privacidade.html" data-i18n="footer.links.privacy">Privacidade</a>
+                    <a href="seguranca.html" data-i18n="footer.links.security">Segurança (CSAE)</a>
+                    <a href="mailto:dualis.love.app@gmail.com" data-i18n="footer.links.contact">Contato</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© 2026 Dualis. Todos os direitos reservados. Feito com ❤️ e fé.</p>
+                <p data-i18n="footer.copyright">© 2026 Dualis. Todos os direitos reservados. Feito com ❤️ e fé.</p>
             </div>
         </div>
     </footer>
 
+    <script type="module" src="/i18n.js"></script>
     <script>
+        // Use an event listener to dynamically update the mailto link's subject and body based on language
+        document.addEventListener('DOMContentLoaded', () => {
+            const btn = document.getElementById('delete-email-btn');
+            if (btn && window.i18next) {
+                const updateLink = () => {
+                    const subject = window.i18next.t('deleteAccount.sections.1.btnSubject', { defaultValue: 'Exclusão de Conta Dualis' });
+                    const body = window.i18next.t('deleteAccount.sections.1.btnBody', { defaultValue: 'Olá, gostaria de solicitar a exclusão da minha conta. Meu e-mail cadastrado é: ' });
+                    btn.href = `mailto:dualis.love.app@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                };
+                window.i18next.on('languageChanged', updateLink);
+                // Also update on initial load if possible, we wait a bit for i18next to initialize
+                setTimeout(updateLink, 500);
+            }
+        });
+
         // Header scroll logic reused from index.html
         const header = document.querySelector('.header');
         window.addEventListener('scroll', () => {

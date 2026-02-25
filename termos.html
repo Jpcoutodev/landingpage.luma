@@ -89,57 +89,83 @@
 
     <!-- Header -->
     <header class="header">
-        <div class="container">
-            <a href="index.html" class="logo">
-                <img src="logo-v2.png" alt="Dualis" class="logo-img">
-            </a>
+        <div class="container header-layout">
+            <div class="header-left">
+                <div class="lang-selector-nav">
+                    <svg class="lang-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path
+                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                        </path>
+                    </svg>
+                    <select id="language-select" class="lang-select">
+                        <option value="pt-BR">🇧🇷 PT</option>
+                        <option value="en">🇺🇸 EN</option>
+                        <option value="es">🇪🇸 ES</option>
+                    </select>
+                </div>
+                <a href="index.html" class="logo">
+                    <img src="logo-v2.png" alt="Dualis" class="logo-img">
+                </a>
+            </div>
             <nav class="nav">
-                <a href="index.html">Voltar para Início</a>
+                <a href="index.html" data-i18n="navSecondary.backToHome">Voltar para Início</a>
             </nav>
-            <a href="index.html#download" class="btn btn-glow">Baixar Grátis</a>
+            <a href="index.html#download" class="btn btn-glow">
+                <span data-i18n="nav.downloadBtn">Baixar Grátis</span>
+                <div class="btn-shine"></div>
+            </a>
+            <button class="mobile-menu" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </header>
 
     <main class="container legal-content">
         <div class="legal-card">
-            <h1 class="legal-title">Termos de Uso</h1>
+            <h1 class="legal-title" data-i18n="terms.title">Termos de Uso</h1>
             <div class="legal-text">
-                <p>Última atualização: Janeiro de 2026</p>
+                <p data-i18n="terms.updated">Última atualização: Janeiro de 2026</p>
 
-                <h2>1. Aceitação dos Termos</h2>
-                <p>Ao baixar, instalar ou usar o aplicativo Dualis ("Serviço"), você concorda em cumprir estes
-                    Termos de Uso. Se você não concordar com algum destes termos, não deverá usar o aplicativo.</p>
+                <h2 data-i18n="terms.sections.1.title">1. Aceitação dos Termos</h2>
+                <p data-i18n="terms.sections.1.p">Ao baixar, instalar ou usar o aplicativo Dualis ("Serviço"), você
+                    concorda em cumprir estes Termos de Uso. Se você não concordar com algum destes termos, não deverá
+                    usar o aplicativo.</p>
 
-                <h2>2. Finalidade do Aplicativo</h2>
-                <p>O Dualis é uma plataforma destinada a promover amizades e relacionamentos sérios entre pessoas
-                    da comunidade cristã. Espera-se que todos os usuários mantenham uma conduta respeitosa e alinhada
-                    com os valores cristãos.</p>
+                <h2 data-i18n="terms.sections.2.title">2. Finalidade do Aplicativo</h2>
+                <p data-i18n="terms.sections.2.p">O Dualis é uma plataforma destinada a promover amizades e
+                    relacionamentos sérios entre pessoas da comunidade cristã. Espera-se que todos os usuários mantenham
+                    uma conduta respeitosa e alinhada com os valores cristãos.</p>
 
-                <h2>3. Elegibilidade</h2>
-                <p>Para usar o Dualis, você deve ter pelo menos 18 anos de idade e ter plena capacidade civil. Ao
-                    criar uma conta, você declara e garante que atende a esses requisitos.</p>
+                <h2 data-i18n="terms.sections.3.title">3. Elegibilidade</h2>
+                <p data-i18n="terms.sections.3.p">Para usar o Dualis, você deve ter pelo menos 18 anos de idade e ter
+                    plena capacidade civil. Ao criar uma conta, você declara e garante que atende a esses requisitos.
+                </p>
 
-                <h2>4. Conduta do Usuário</h2>
-                <p>Você concorda em não:</p>
+                <h2 data-i18n="terms.sections.4.title">4. Conduta do Usuário</h2>
+                <p data-i18n="terms.sections.4.p">Você concorda em não:</p>
                 <ul>
-                    <li>Usar o serviço para fins ilegais ou não autorizados.</li>
-                    <li>Publicar conteúdo ofensivo, difamatório, obsceno ou que viole direitos de terceiros.</li>
-                    <li>Assediar, intimidar ou perseguir outros usuários.</li>
-                    <li>Criar perfis falsos ou se passar por outra pessoa.</li>
+                    <li data-i18n="terms.sections.4.li1">Usar o serviço para fins ilegais ou não autorizados.</li>
+                    <li data-i18n="terms.sections.4.li2">Publicar conteúdo ofensivo, difamatório, obsceno ou que viole
+                        direitos de terceiros.</li>
+                    <li data-i18n="terms.sections.4.li3">Assediar, intimidar ou perseguir outros usuários.</li>
+                    <li data-i18n="terms.sections.4.li4">Criar perfis falsos ou se passar por outra pessoa.</li>
                 </ul>
 
-                <h2>5. Segurança e Privacidade</h2>
-                <p>Sua privacidade é importante para nós. Consulte nossa Política de Privacidade para entender como
-                    coletamos e usamos seus dados. Recomendamos cautela ao compartilhar informações pessoais com outros
-                    usuários.</p>
+                <h2 data-i18n="terms.sections.5.title">5. Segurança e Privacidade</h2>
+                <p data-i18n="terms.sections.5.p">Sua privacidade é importante para nós. Consulte nossa Política de
+                    Privacidade para entender como coletamos e usamos seus dados. Recomendamos cautela ao compartilhar
+                    informações pessoais com outros usuários.</p>
 
-                <h2>6. Modificações no Serviço</h2>
-                <p>Reservamo-nos o direito de modificar ou descontinuar o serviço a qualquer momento, temporariamente ou
-                    permanentemente, com ou sem aviso prévio.</p>
+                <h2 data-i18n="terms.sections.6.title">6. Modificações no Serviço</h2>
+                <p data-i18n="terms.sections.6.p">Reservamo-nos o direito de modificar ou descontinuar o serviço a
+                    qualquer momento, temporariamente ou permanentemente, com ou sem aviso prévio.</p>
 
-                <h2>7. Contato</h2>
-                <p>Se tiver dúvidas sobre estes termos, entre em contato conosco através dos canais oficiais do
-                    aplicativo.</p>
+                <h2 data-i18n="terms.sections.7.title">7. Contato</h2>
+                <p data-i18n="terms.sections.7.p">Se tiver dúvidas sobre estes termos, entre em contato conosco através
+                    dos canais oficiais do aplicativo.</p>
             </div>
         </div>
     </main>
@@ -149,20 +175,39 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <img src="logo-v2.png" alt="Dualis" class="footer-logo">
-                    <p>Conectando cristãos com amor e fé.</p>
+                    <p data-i18n="footer.brandDesc">Conectando cristãos com amor e fé.</p>
                 </div>
                 <div class="footer-links">
-                    <a href="termos.html">Termos de Uso</a>
-                    <a href="privacidade.html">Privacidade</a>
-                    <a href="seguranca.html">Segurança (CSAE)</a>
-                    <a href="mailto:dualis.love.app@gmail.com">Contato</a>
+                    <a href="termos.html" data-i18n="footer.links.terms">Termos de Uso</a>
+                    <a href="privacidade.html" data-i18n="footer.links.privacy">Privacidade</a>
+                    <a href="seguranca.html" data-i18n="footer.links.security">Segurança (CSAE)</a>
+                    <a href="mailto:dualis.love.app@gmail.com" data-i18n="footer.links.contact">Contato</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© 2026 Dualis. Todos os direitos reservados. Feito com ❤️ e fé.</p>
+                <p data-i18n="footer.copyright">© 2026 Dualis. Todos os direitos reservados. Feito com ❤️ e fé.</p>
             </div>
         </div>
     </footer>
+
+    <script type="module" src="/i18n.js"></script>
+    <script>
+        // Header scroll logic
+        const header = document.querySelector('.header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Mobile menu logic
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const nav = document.querySelector('.nav');
+        if (mobileMenu) {
+            mobileMenu.addEventListener('click', () => {
+                nav.classList.toggle('active');
+                mobileMenu.classList.toggle('active');
+            });
+        }
+    </script>
 </body>
 
 </html>

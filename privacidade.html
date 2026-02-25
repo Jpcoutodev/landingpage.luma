@@ -89,65 +89,95 @@
 
     <!-- Header -->
     <header class="header">
-        <div class="container">
-            <a href="index.html" class="logo">
-                <img src="logo-v2.png" alt="Dualis" class="logo-img">
-            </a>
+        <div class="container header-layout">
+            <div class="header-left">
+                <div class="lang-selector-nav">
+                    <svg class="lang-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path
+                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                        </path>
+                    </svg>
+                    <select id="language-select" class="lang-select">
+                        <option value="pt-BR">🇧🇷 PT</option>
+                        <option value="en">🇺🇸 EN</option>
+                        <option value="es">🇪🇸 ES</option>
+                    </select>
+                </div>
+                <a href="index.html" class="logo">
+                    <img src="logo-v2.png" alt="Dualis" class="logo-img">
+                </a>
+            </div>
             <nav class="nav">
-                <a href="index.html">Voltar para Início</a>
+                <a href="index.html" data-i18n="navSecondary.backToHome">Voltar para Início</a>
             </nav>
-            <a href="index.html#download" class="btn btn-glow">Baixar Grátis</a>
+            <a href="index.html#download" class="btn btn-glow">
+                <span data-i18n="nav.downloadBtn">Baixar Grátis</span>
+                <div class="btn-shine"></div>
+            </a>
+            <button class="mobile-menu" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </header>
 
     <main class="container legal-content">
         <div class="legal-card">
-            <h1 class="legal-title">Política de Privacidade</h1>
+            <h1 class="legal-title" data-i18n="privacy.title">Política de Privacidade</h1>
             <div class="legal-text">
-                <p>Última atualização: Janeiro de 2026</p>
+                <p data-i18n="privacy.updated">Última atualização: Janeiro de 2026</p>
 
-                <h2>1. Introdução</h2>
-                <p>O Dualis respeita a sua privacidade compromete-se a proteger os dados pessoais que você
-                    compartilha conosco. Esta política descreve como coletamos, usamos e protegemos suas informações.
+                <h2 data-i18n="privacy.sections.1.title">1. Introdução</h2>
+                <p data-i18n="privacy.sections.1.p">O Dualis respeita a sua privacidade compromete-se a proteger os
+                    dados pessoais que você compartilha conosco. Esta política descreve como coletamos, usamos e
+                    protegemos suas informações.</p>
+
+                <h2 data-i18n="privacy.sections.2.title">2. Informações que Coletamos</h2>
+                <ul>
+                    <li data-i18n="privacy.sections.2.li1"><strong>Informações de Perfil:</strong> Nome, idade, fotos,
+                        denominação religiosa e descrição.</li>
+                    <li data-i18n="privacy.sections.2.li2"><strong>Dados de Uso:</strong> Interações com outros
+                        usuários, matches e mensagens.</li>
+                    <li data-i18n="privacy.sections.2.li3"><strong>Dados Técnicos:</strong> Endereço IP, tipo de
+                        dispositivo e sistema operacional.</li>
+                </ul>
+                <p data-i18n="privacy.sections.2.p">Coletamos informações sobre sua denominação religiosa estritamente
+                    para conectar você com perfis compatíveis, conforme o objetivo do aplicativo.</p>
+
+                <h2 data-i18n="privacy.sections.3.title">3. Como Usamos Seus Dados</h2>
+                <p data-i18n="privacy.sections.3.p">Utilizamos suas informações para:</p>
+                <ul>
+                    <li data-i18n="privacy.sections.3.li1">Criar e gerenciar sua conta.</li>
+                    <li data-i18n="privacy.sections.3.li2">Sugerir matches compatíveis com base em sua denominação e
+                        preferências.</li>
+                    <li data-i18n="privacy.sections.3.li3">Garantir a segurança da plataforma e prevenir fraudes.</li>
+                    <li data-i18n="privacy.sections.3.li4">Melhorar nossos serviços e desenvolver novas funcionalidades.
+                    </li>
+                </ul>
+
+                <h2 data-i18n="privacy.sections.4.title">4. Compartilhamento de Informações</h2>
+                <p data-i18n="privacy.sections.4.p">Não vendemos seus dados pessoais. Compartilhamos informações apenas:
+                </p>
+                <ul>
+                    <li data-i18n="privacy.sections.4.li1">Com outros usuários conforme a funcionalidade do app (seu
+                        perfil público).</li>
+                    <li data-i18n="privacy.sections.4.li2">Quando exigido por lei ou autoridade judicial.</li>
+                </ul>
+
+                <h2 data-i18n="privacy.sections.5.title">5. Segurança dos Dados</h2>
+                <p data-i18n="privacy.sections.5.p">Implementamos medidas de segurança técnicas e organizacionais para
+                    proteger seus dados contra acesso não autorizado, alteração ou destruição.</p>
+
+                <h2 data-i18n="privacy.sections.6.title">6. Seus Direitos</h2>
+                <p data-i18n="privacy.sections.6.p">Você tem o direito de acessar, corrigir ou excluir seus dados
+                    pessoais a qualquer momento através das configurações do aplicativo ou entrando em contato conosco.
                 </p>
 
-                <h2>2. Informações que Coletamos</h2>
-                <ul>
-                    <li><strong>Informações de Perfil:</strong> Nome, idade, fotos, denominação religiosa e descrição.
-                    </li>
-                    <li><strong>Dados de Uso:</strong> Interações com outros usuários, matches e mensagens.</li>
-                    <li><strong>Dados Técnicos:</strong> Endereço IP, tipo de dispositivo e sistema operacional.</li>
-                </ul>
-                <p>Coletamos informações sobre sua denominação religiosa estritamente para conectar você com perfis
-                    compatíveis, conforme o objetivo do aplicativo.</p>
-
-                <h2>3. Como Usamos Seus Dados</h2>
-                <p>Utilizamos suas informações para:</p>
-                <ul>
-                    <li>Criar e gerenciar sua conta.</li>
-                    <li>Sugerir matches compatíveis com base em sua denominação e preferências.</li>
-                    <li>Garantir a segurança da plataforma e prevenir fraudes.</li>
-                    <li>Melhorar nossos serviços e desenvolver novas funcionalidades.</li>
-                </ul>
-
-                <h2>4. Compartilhamento de Informações</h2>
-                <p>Não vendemos seus dados pessoais. Compartilhamos informações apenas:</p>
-                <ul>
-                    <li>Com outros usuários conforme a funcionalidade do app (seu perfil público).</li>
-                    <li>Quando exigido por lei ou autoridade judicial.</li>
-                </ul>
-
-                <h2>5. Segurança dos Dados</h2>
-                <p>Implementamos medidas de segurança técnicas e organizacionais para proteger seus dados contra acesso
-                    não autorizado, alteração ou destruição.</p>
-
-                <h2>6. Seus Direitos</h2>
-                <p>Você tem o direito de acessar, corrigir ou excluir seus dados pessoais a qualquer momento através das
-                    configurações do aplicativo ou entrando em contato conosco.</p>
-
-                <h2>7. Alterações nesta Política</h2>
-                <p>Podemos atualizar esta política periodicamente. Notificaremos sobre mudanças significativas através
-                    do aplicativo.</p>
+                <h2 data-i18n="privacy.sections.7.title">7. Alterações nesta Política</h2>
+                <p data-i18n="privacy.sections.7.p">Podemos atualizar esta política periodicamente. Notificaremos sobre
+                    mudanças significativas através do aplicativo.</p>
             </div>
         </div>
     </main>
@@ -157,20 +187,39 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <img src="logo-v2.png" alt="Dualis" class="footer-logo">
-                    <p>Conectando cristãos com amor e fé.</p>
+                    <p data-i18n="footer.brandDesc">Conectando cristãos com amor e fé.</p>
                 </div>
                 <div class="footer-links">
-                    <a href="termos.html">Termos de Uso</a>
-                    <a href="privacidade.html">Privacidade</a>
-                    <a href="seguranca.html">Segurança (CSAE)</a>
-                    <a href="mailto:dualis.love.app@gmail.com">Contato</a>
+                    <a href="termos.html" data-i18n="footer.links.terms">Termos de Uso</a>
+                    <a href="privacidade.html" data-i18n="footer.links.privacy">Privacidade</a>
+                    <a href="seguranca.html" data-i18n="footer.links.security">Segurança (CSAE)</a>
+                    <a href="mailto:dualis.love.app@gmail.com" data-i18n="footer.links.contact">Contato</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© 2026 Dualis. Todos os direitos reservados. Feito com ❤️ e fé.</p>
+                <p data-i18n="footer.copyright">© 2026 Dualis. Todos os direitos reservados. Feito com ❤️ e fé.</p>
             </div>
         </div>
     </footer>
+
+    <script type="module" src="/i18n.js"></script>
+    <script>
+        // Header scroll logic
+        const header = document.querySelector('.header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Mobile menu logic
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const nav = document.querySelector('.nav');
+        if (mobileMenu) {
+            mobileMenu.addEventListener('click', () => {
+                nav.classList.toggle('active');
+                mobileMenu.classList.toggle('active');
+            });
+        }
+    </script>
 </body>
 
 </html>

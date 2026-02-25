@@ -174,6 +174,173 @@
             "labelStrong": "Versão Web"
         }
     },
+    "terms": {
+        "title": "Termos de Uso",
+        "updated": "Última atualização: Janeiro de 2026",
+        "sections": {
+            "1": {
+                "title": "1. Aceitação dos Termos",
+                "p": "Ao baixar, instalar ou usar o aplicativo Dualis (\"Serviço\"), você concorda em cumprir estes Termos de Uso. Se você não concordar com algum destes termos, não deverá usar o aplicativo."
+            },
+            "2": {
+                "title": "2. Finalidade do Aplicativo",
+                "p": "O Dualis é uma plataforma destinada a promover amizades e relacionamentos sérios entre pessoas da comunidade cristã. Espera-se que todos os usuários mantenham uma conduta respeitosa e alinhada com os valores cristãos."
+            },
+            "3": {
+                "title": "3. Elegibilidade",
+                "p": "Para usar o Dualis, você deve ter pelo menos 18 anos de idade e ter plena capacidade civil. Ao criar uma conta, você declara e garante que atende a esses requisitos."
+            },
+            "4": {
+                "title": "4. Conduta do Usuário",
+                "p": "Você concorda em não:",
+                "li1": "Usar o serviço para fins ilegais ou não autorizados.",
+                "li2": "Publicar conteúdo ofensivo, difamatório, obsceno ou que viole direitos de terceiros.",
+                "li3": "Assediar, intimidar ou perseguir outros usuários.",
+                "li4": "Criar perfis falsos ou se passar por outra pessoa."
+            },
+            "5": {
+                "title": "5. Segurança e Privacidade",
+                "p": "Sua privacidade é importante para nós. Consulte nossa Política de Privacidade para entender como coletamos e usamos seus dados. Recomendamos cautela ao compartilhar informações pessoais com outros usuários."
+            },
+            "6": {
+                "title": "6. Modificações no Serviço",
+                "p": "Reservamo-nos o direito de modificar ou descontinuar o serviço a qualquer momento, temporariamente ou permanentemente, com ou sem aviso prévio."
+            },
+            "7": {
+                "title": "7. Contato",
+                "p": "Se tiver dúvidas sobre estes termos, entre em contato conosco através dos canais oficiais do aplicativo."
+            }
+        }
+    },
+    "privacy": {
+        "title": "Política de Privacidade",
+        "updated": "Última atualização: Janeiro de 2026",
+        "sections": {
+            "1": {
+                "title": "1. Introdução",
+                "p": "O Dualis respeita a sua privacidade compromete-se a proteger os dados pessoais que você compartilha conosco. Esta política descreve como coletamos, usamos e protegemos suas informações."
+            },
+            "2": {
+                "title": "2. Informações que Coletamos",
+                "li1": "<strong>Informações de Perfil:</strong> Nome, idade, fotos, denominação religiosa e descrição.",
+                "li2": "<strong>Dados de Uso:</strong> Interações com outros usuários, matches e mensagens.",
+                "li3": "<strong>Dados Técnicos:</strong> Endereço IP, tipo de dispositivo e sistema operacional.",
+                "p": "Coletamos informações sobre sua denominação religiosa estritamente para conectar você com perfis compatíveis, conforme o objetivo do aplicativo."
+            },
+            "3": {
+                "title": "3. Como Usamos Seus Dados",
+                "p": "Utilizamos suas informações para:",
+                "li1": "Criar e gerenciar sua conta.",
+                "li2": "Sugerir matches compatíveis com base em sua denominação e preferências.",
+                "li3": "Garantir a segurança da plataforma e prevenir fraudes.",
+                "li4": "Melhorar nossos serviços e desenvolver novas funcionalidades."
+            },
+            "4": {
+                "title": "4. Compartilhamento de Informações",
+                "p": "Não vendemos seus dados pessoais. Compartilhamos informações apenas:",
+                "li1": "Com outros usuários conforme a funcionalidade do app (seu perfil público).",
+                "li2": "Quando exigido por lei ou autoridade judicial."
+            },
+            "5": {
+                "title": "5. Segurança dos Dados",
+                "p": "Implementamos medidas de segurança técnicas e organizacionais para proteger seus dados contra acesso não autorizado, alteração ou destruição."
+            },
+            "6": {
+                "title": "6. Seus Direitos",
+                "p": "Você tem o direito de acessar, corrigir ou excluir seus dados pessoais a qualquer momento através das configurações do aplicativo ou entrando em contato conosco."
+            },
+            "7": {
+                "title": "7. Alterações nesta Política",
+                "p": "Podemos atualizar esta política periodicamente. Notificaremos sobre mudanças significativas através do aplicativo."
+            }
+        }
+    },
+    "security": {
+        "title": "Padrões de Segurança Infantil (CSAE)",
+        "alertBox": "O Dualis mantém uma política de tolerância zero absoluta contra qualquer forma de Abuso e Exploração Sexual Infantil (CSAE).",
+        "introP": "A segurança de nossa comunidade é nossa prioridade máxima. Estamos comprometidos em combater a exploração sexual infantil online e trabalhamos ativamente para prevenir, detectar e remover qualquer conteúdo relacionado a abuso infantil de nossa plataforma.",
+        "sections": {
+            "1": {
+                "title": "1. Política de Tolerância Zero",
+                "p1": "É estritamente proibido publicar, compartilhar, armazenar ou solicitar qualquer conteúdo que envolva:",
+                "li1": "Abuso sexual de crianças ou menores de idade.",
+                "li2": "Exploração sexual, incluindo pornografia infantil.",
+                "li3": "Aliciamento de menores (grooming).",
+                "li4": "Qualquer material que sexualize menores de idade.",
+                "p2": "Qualquer usuário encontrado violando essas políticas terá sua conta <strong>imediatamente e permanentemente banida</strong>, e o caso será reportado às autoridades competentes."
+            },
+            "2": {
+                "title": "2. Cooperação com Autoridades",
+                "p": "O Dualis coopera plenamente com agências de aplicação da lei e organizações de proteção à criança, incluindo:",
+                "li1": "<strong>NCMEC (National Center for Missing & Exploited Children):</strong> Reportamos proativamente todos os casos suspeitos de exploração infantil através do CyberTipline.",
+                "li2": "<strong>Polícia Federal e Autoridades Locais:</strong> Fornecemos dados e colaboramos com investigações quando solicitados ou quando identificamos risco iminente a uma criança."
+            },
+            "3": {
+                "title": "3. Mecanismos de Denúncia",
+                "p1": "Encorajamos nossa comunidade a denunciar qualquer comportamento ou conteúdo suspeito. Nossos usuários podem denunciar violações de segurança das seguintes formas:",
+                "li1": "<strong>No Aplicativo:</strong> Utilize a opção \"Denunciar\" disponível no perfil de usuário ou em publicações específicas.",
+                "li2": "<strong>Por E-mail:</strong> Entre em contato diretamente com nossa equipe de segurança através do e-mail <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--primary);\">dualis.love.app@gmail.com</a>.",
+                "p2": "Todas as denúncias são tratadas com prioridade e urgência."
+            },
+            "4": {
+                "title": "4. Moderação de Conteúdo",
+                "p": "Utilizamos uma combinação de tecnologia e moderação humana para proteger nossa plataforma:",
+                "li1": "Sistemas automatizados para detecção de palavras-chave e padrões suspeitos.",
+                "li2": "Revisão humana constante de denúncias e perfis sinalizados.",
+                "li3": "Verificação de idade para garantir que todos os usuários sejam maiores de 18 anos."
+            },
+            "5": {
+                "title": "5. Recursos de Apoio",
+                "p": "Se você ou alguém que você conhece está em perigo ou precisa de ajuda, entre em contato com as autoridades locais ou utilize os canais abaixo:",
+                "li1": "<strong>Disque 100 (Brasil):</strong> Disque Direitos Humanos.",
+                "li2": "Internet Watch Foundation (IWF).",
+                "li3": "SaferNet Brasil."
+            }
+        }
+    },
+    "deleteAccount": {
+        "title": "Exclusão de Conta e Dados",
+        "heroTitle1": "Exclusão de ",
+        "heroTitle2": "Conta e Dados",
+        "heroSubtitle": "Saiba como solicitar a exclusão da sua conta no app Dualis",
+        "sections": {
+            "1": {
+                "title": "Como solicitar a exclusão",
+                "intro": "O <strong>Dualis</strong> valoriza sua privacidade e oferece controle total sobre seus dados. Se você deseja excluir permanentemente sua conta e todos os dados associados, siga as etapas abaixo:",
+                "step1Title": "Envie sua solicitação",
+                "step1Desc": "Clique no botão abaixo ou envie um e-mail diretamente para <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--accent);\">dualis.love.app@gmail.com</a>.",
+                "step2Title": "Identificação",
+                "step2Desc": "No assunto do e-mail, coloque \"Exclusão de Conta\". No corpo, informe o endereço de e-mail associado à sua conta no aplicativo.",
+                "step3Title": "Confirmação",
+                "step3Desc": "Nossa equipe processará sua solicitação e removerá seus dados permanentemente em até 7 dias úteis.",
+                "btnText": "Solicitar Exclusão por E-mail",
+                "btnSubject": "Exclusão de Conta Dualis",
+                "btnBody": "Olá, gostaria de solicitar a exclusão da minha conta. Meu e-mail cadastrado é: "
+            },
+            "2": {
+                "title": "Quais dados são excluídos?",
+                "intro": "Ao processar sua solicitação, os seguintes dados serão permanentemente removidos de nossos servidores:",
+                "li1": "Informações do perfil (nome, bio, idade, denominação)",
+                "li2": "Fotos e imagens enviadas",
+                "li3": "Histórico de mensagens e conversas",
+                "li4": "Histórico de matches e curtidas",
+                "li5": "Dados de localização e preferências"
+            },
+            "3": {
+                "title": "Retenção de Dados",
+                "intro": "Alguns dados podem ser retidos temporariamente ou permanentemente apenas quando exigido por lei ou para fins legítimos de segurança:",
+                "li1": "<strong>Logs de Acesso:</strong> Registros de conexão (IP, data e hora) são mantidos pelo prazo legal exigido pelo Marco Civil da Internet (Brasil).",
+                "li2": "<strong>Segurança:</strong> Dados associados a contas banidas por violação de termos podem ser mantidos para prevenir nova criação de contas indevidas."
+            }
+        }
+    },
+    "navSecondary": {
+        "backToHome": "Voltar para Início",
+        "home": "Início",
+        "terms": "Termos",
+        "privacy": "Privacidade",
+        "downloadApp": "Baixar App"
+    },
     "footer": {
         "brandDesc": "Conectando cristãos com amor e fé.",
         "links": {

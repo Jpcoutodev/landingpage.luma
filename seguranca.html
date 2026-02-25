@@ -97,81 +97,111 @@
 
     <!-- Header -->
     <header class="header">
-        <div class="container">
-            <a href="index.html" class="logo">
-                <img src="logo-v2.png" alt="Dualis" class="logo-img">
-            </a>
+        <div class="container header-layout">
+            <div class="header-left">
+                <div class="lang-selector-nav">
+                    <svg class="lang-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path
+                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                        </path>
+                    </svg>
+                    <select id="language-select" class="lang-select">
+                        <option value="pt-BR">🇧🇷 PT</option>
+                        <option value="en">🇺🇸 EN</option>
+                        <option value="es">🇪🇸 ES</option>
+                    </select>
+                </div>
+                <a href="index.html" class="logo">
+                    <img src="logo-v2.png" alt="Dualis" class="logo-img">
+                </a>
+            </div>
             <nav class="nav">
-                <a href="index.html">Voltar para Início</a>
+                <a href="index.html" data-i18n="navSecondary.backToHome">Voltar para Início</a>
             </nav>
-            <a href="index.html#download" class="btn btn-glow">Baixar Grátis</a>
+            <a href="index.html#download" class="btn btn-glow">
+                <span data-i18n="nav.downloadBtn">Baixar Grátis</span>
+                <div class="btn-shine"></div>
+            </a>
+            <button class="mobile-menu" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </header>
 
     <main class="container legal-content">
         <div class="legal-card">
-            <h1 class="legal-title">Padrões de Segurança Infantil (CSAE)</h1>
+            <h1 class="legal-title" data-i18n="security.title">Padrões de Segurança Infantil (CSAE)</h1>
             <div class="legal-text">
                 <div class="important-box">
-                    <p style="margin-bottom: 0; font-weight: 500; color: #ff6b6b;">
-                        O Dualis mantém uma política de tolerância zero absoluta contra qualquer forma de Abuso e
-                        Exploração Sexual Infantil (CSAE).
-                    </p>
+                    <p style="margin-bottom: 0; font-weight: 500; color: #ff6b6b;" data-i18n="security.alertBox">O
+                        Dualis mantém uma política de tolerância zero absoluta contra qualquer forma de Abuso e
+                        Exploração Sexual Infantil (CSAE).</p>
                 </div>
 
-                <p>A segurança de nossa comunidade é nossa prioridade máxima. Estamos comprometidos em combater a
-                    exploração sexual infantil online e trabalhamos ativamente para prevenir, detectar e remover
-                    qualquer conteúdo relacionado a abuso infantil de nossa plataforma.</p>
+                <p data-i18n="security.introP">A segurança de nossa comunidade é nossa prioridade máxima. Estamos
+                    comprometidos em combater a exploração sexual infantil online e trabalhamos ativamente para
+                    prevenir, detectar e remover qualquer conteúdo relacionado a abuso infantil de nossa plataforma.</p>
 
-                <h2>1. Política de Tolerância Zero</h2>
-                <p>É estritamente proibido publicar, compartilhar, armazenar ou solicitar qualquer conteúdo que envolva:
-                </p>
+                <h2 data-i18n="security.sections.1.title">1. Política de Tolerância Zero</h2>
+                <p data-i18n="security.sections.1.p1">É estritamente proibido publicar, compartilhar, armazenar ou
+                    solicitar qualquer conteúdo que envolva:</p>
                 <ul>
-                    <li>Abuso sexual de crianças ou menores de idade.</li>
-                    <li>Exploração sexual, incluindo pornografia infantil.</li>
-                    <li>Aliciamento de menores (grooming).</li>
-                    <li>Qualquer material que sexualize menores de idade.</li>
+                    <li data-i18n="security.sections.1.li1">Abuso sexual de crianças ou menores de idade.</li>
+                    <li data-i18n="security.sections.1.li2">Exploração sexual, incluindo pornografia infantil.</li>
+                    <li data-i18n="security.sections.1.li3">Aliciamento de menores (grooming).</li>
+                    <li data-i18n="security.sections.1.li4">Qualquer material que sexualize menores de idade.</li>
                 </ul>
-                <p>Qualquer usuário encontrado violando essas políticas terá sua conta <strong>imediatamente e
-                        permanentemente banida</strong>, e o caso será reportado às autoridades competentes.</p>
+                <p data-i18n="security.sections.1.p2">Qualquer usuário encontrado violando essas políticas terá sua
+                    conta <strong>imediatamente e permanentemente banida</strong>, e o caso será reportado às
+                    autoridades competentes.</p>
 
-                <h2>2. Cooperação com Autoridades</h2>
-                <p>O Dualis coopera plenamente com agências de aplicação da lei e organizações de proteção à
-                    criança, incluindo:</p>
+                <h2 data-i18n="security.sections.2.title">2. Cooperação com Autoridades</h2>
+                <p data-i18n="security.sections.2.p">O Dualis coopera plenamente com agências de aplicação da lei e
+                    organizações de proteção à criança, incluindo:</p>
                 <ul>
-                    <li><strong>NCMEC (National Center for Missing & Exploited Children):</strong> Reportamos
-                        proativamente todos os casos suspeitos de exploração infantil através do CyberTipline.</li>
-                    <li><strong>Polícia Federal e Autoridades Locais:</strong> Fornecemos dados e colaboramos com
-                        investigações quando solicitados ou quando identificamos risco iminente a uma criança.</li>
+                    <li data-i18n="security.sections.2.li1"><strong>NCMEC (National Center for Missing & Exploited
+                            Children):</strong> Reportamos proativamente todos os casos suspeitos de exploração infantil
+                        através do CyberTipline.</li>
+                    <li data-i18n="security.sections.2.li2"><strong>Polícia Federal e Autoridades Locais:</strong>
+                        Fornecemos dados e colaboramos com investigações quando solicitados ou quando identificamos
+                        risco iminente a uma criança.</li>
                 </ul>
 
-                <h2>3. Mecanismos de Denúncia</h2>
-                <p>Encorajamos nossa comunidade a denunciar qualquer comportamento ou conteúdo suspeito. Nossos usuários
-                    podem denunciar violações de segurança das seguintes formas:</p>
+                <h2 data-i18n="security.sections.3.title">3. Mecanismos de Denúncia</h2>
+                <p data-i18n="security.sections.3.p1">Encorajamos nossa comunidade a denunciar qualquer comportamento ou
+                    conteúdo suspeito. Nossos usuários podem denunciar violações de segurança das seguintes formas:</p>
                 <ul>
-                    <li><strong>No Aplicativo:</strong> Utilize a opção "Denunciar" disponível no perfil de usuário ou
-                        em publicações específicas.</li>
-                    <li><strong>Por E-mail:</strong> Entre em contato diretamente com nossa equipe de segurança através
-                        do e-mail <a href="mailto:dualis.love.app@gmail.com"
+                    <li data-i18n="security.sections.3.li1"><strong>No Aplicativo:</strong> Utilize a opção "Denunciar"
+                        disponível no perfil de usuário ou em publicações específicas.</li>
+                    <li data-i18n="security.sections.3.li2"><strong>Por E-mail:</strong> Entre em contato diretamente
+                        com nossa equipe de segurança através do e-mail <a href="mailto:dualis.love.app@gmail.com"
                             style="color: var(--primary);">dualis.love.app@gmail.com</a>.</li>
                 </ul>
-                <p>Todas as denúncias são tratadas com prioridade e urgência.</p>
+                <p data-i18n="security.sections.3.p2">Todas as denúncias são tratadas com prioridade e urgência.</p>
 
-                <h2>4. Moderação de Conteúdo</h2>
-                <p>Utilizamos uma combinação de tecnologia e moderação humana para proteger nossa plataforma:</p>
+                <h2 data-i18n="security.sections.4.title">4. Moderação de Conteúdo</h2>
+                <p data-i18n="security.sections.4.p">Utilizamos uma combinação de tecnologia e moderação humana para
+                    proteger nossa plataforma:</p>
                 <ul>
-                    <li>Sistemas automatizados para detecção de palavras-chave e padrões suspeitos.</li>
-                    <li>Revisão humana constante de denúncias e perfis sinalizados.</li>
-                    <li>Verificação de idade para garantir que todos os usuários sejam maiores de 18 anos.</li>
+                    <li data-i18n="security.sections.4.li1">Sistemas automatizados para detecção de palavras-chave e
+                        padrões suspeitos.</li>
+                    <li data-i18n="security.sections.4.li2">Revisão humana constante de denúncias e perfis sinalizados.
+                    </li>
+                    <li data-i18n="security.sections.4.li3">Verificação de idade para garantir que todos os usuários
+                        sejam maiores de 18 anos.</li>
                 </ul>
 
-                <h2>5. Recursos de Apoio</h2>
-                <p>Se você ou alguém que você conhece está em perigo ou precisa de ajuda, entre em contato com as
-                    autoridades locais ou utilize os canais abaixo:</p>
+                <h2 data-i18n="security.sections.5.title">5. Recursos de Apoio</h2>
+                <p data-i18n="security.sections.5.p">Se você ou alguém que você conhece está em perigo ou precisa de
+                    ajuda, entre em contato com as autoridades locais ou utilize os canais abaixo:</p>
                 <ul>
-                    <li><strong>Disque 100 (Brasil):</strong> Disque Direitos Humanos.</li>
-                    <li>Internet Watch Foundation (IWF).</li>
-                    <li>SaferNet Brasil.</li>
+                    <li data-i18n="security.sections.5.li1"><strong>Disque 100 (Brasil):</strong> Disque Direitos
+                        Humanos.</li>
+                    <li data-i18n="security.sections.5.li2">Internet Watch Foundation (IWF).</li>
+                    <li data-i18n="security.sections.5.li3">SaferNet Brasil.</li>
                 </ul>
             </div>
         </div>
@@ -182,20 +212,39 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <img src="logo-v2.png" alt="Dualis" class="footer-logo">
-                    <p>Conectando cristãos com amor e fé.</p>
+                    <p data-i18n="footer.brandDesc">Conectando cristãos com amor e fé.</p>
                 </div>
                 <div class="footer-links">
-                    <a href="termos.html">Termos de Uso</a>
-                    <a href="privacidade.html">Privacidade</a>
-                    <a href="seguranca.html">Segurança (CSAE)</a>
-                    <a href="mailto:dualis.love.app@gmail.com">Contato</a>
+                    <a href="termos.html" data-i18n="footer.links.terms">Termos de Uso</a>
+                    <a href="privacidade.html" data-i18n="footer.links.privacy">Privacidade</a>
+                    <a href="seguranca.html" data-i18n="footer.links.security">Segurança (CSAE)</a>
+                    <a href="mailto:dualis.love.app@gmail.com" data-i18n="footer.links.contact">Contato</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© 2026 Dualis. Todos os direitos reservados. Feito com ❤️ e fé.</p>
+                <p data-i18n="footer.copyright">© 2026 Dualis. Todos os direitos reservados. Feito com ❤️ e fé.</p>
             </div>
         </div>
     </footer>
+
+    <script type="module" src="/i18n.js"></script>
+    <script>
+        // Header scroll logic
+        const header = document.querySelector('.header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Mobile menu logic
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const nav = document.querySelector('.nav');
+        if (mobileMenu) {
+            mobileMenu.addEventListener('click', () => {
+                nav.classList.toggle('active');
+                mobileMenu.classList.toggle('active');
+            });
+        }
+    </script>
 </body>
 
 </html>
