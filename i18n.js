@@ -55,7 +55,7 @@ i18next
     .use(LanguageDetector)
     .init({
         resources,
-        fallbackLng: "pt-BR",
+        fallbackLng: "en",
         detection: {
             order: ['localStorage', 'sessionStorage', 'navigator'],
             caches: ['localStorage', 'sessionStorage']
