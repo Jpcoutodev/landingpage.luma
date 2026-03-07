@@ -88,14 +88,14 @@ function updateLanguageSelectorUI() {
 
     // Map language codes to display info
     const langMap = {
-        'pt': { flag: '🇧🇷', code: 'PT', name: 'Português' },
-        'en': { flag: '🇺🇸', code: 'EN', name: 'English' },
-        'es': { flag: '🇪🇸', code: 'ES', name: 'Español' }
+        'pt': { flag: 'https://flagcdn.com/w40/br.png', code: 'PT', name: 'Português' },
+        'en': { flag: 'https://flagcdn.com/w40/us.png', code: 'EN', name: 'English' },
+        'es': { flag: 'https://flagcdn.com/w40/es.png', code: 'ES', name: 'Español' }
     };
 
     const currentLangInfo = langMap[langPrefix] || langMap['pt'];
-    
-    if (langFlag) langFlag.textContent = currentLangInfo.flag;
+
+    if (langFlag) langFlag.src = currentLangInfo.flag;
     if (langCode) langCode.textContent = currentLangInfo.code;
 
     // Update active item
