@@ -1,152 +1,152 @@
 {
     "meta": {
-        "title": "Dualis | Christian, Protestant and Catholic Dating App",
-        "desc": "Dualis: The best Christian dating app for Catholics, Protestants, and Christians of all denominations. Find serious friendship and your partner in faith for free.",
-        "ogTitle": "Dualis | Christian, Protestant and Catholic Dating App",
-        "ogDesc": "Find your partner in faith! The free app for serious dating and friendship among Christians, Catholics, and Protestants.",
-        "keywords": "christian dating app, protestant dating, catholic dating, christian chat, christian friendship, gospel app, free christian dating, dualis"
+        "title": "Luma | International Dating & Relationship App",
+        "desc": "Luma: The best international dating app. Connect with people worldwide, find love beyond borders. Free and safe.",
+        "ogTitle": "Luma | Love Beyond Borders",
+        "ogDesc": "Find real connections around the world! Free app for serious and authentic international relationships.",
+        "keywords": "international dating app, dating abroad, global dating, cross-cultural dating, love without borders, multicultural relationship, luma app"
     },
     "nav": {
-        "denominations": "Denominations",
+        "denominations": "Destinations",
         "features": "Features",
         "stories": "Stories",
         "downloadBtn": "Download Free"
     },
     "hero": {
-        "title": "Find your partner with the same <span class=\"gradient-text\">faith and purpose</span>",
-        "subtitle": "Connecting Christians around the world who are seeking a serious relationship based on faith and Christian values.",
+        "title": "The world is vast. Your love could be on the <span class=\"gradient-text-light\">other side</span>",
+        "subtitle": "Cross borders, discover cultures, and find someone who makes your heart beat faster — no matter the distance.",
         "downloadBtn": "Download Now",
         "scroll": "Scroll to discover"
     },
     "benefits": {
-        "tag": "Why choose us?",
-        "title": "Connect with Christians who <span class=\"gradient-text\">share your values</span>",
+        "tag": "✈️ Your passport to love",
+        "title": "Connections that <span class=\"gradient-text\">cross oceans</span>",
         "items": {
             "0": {
-                "title": "Local and international Christian singles",
-                "desc": "Find people in your city or connect with Christians around the world"
+                "title": "Real people from diverse cultures",
+                "desc": "Find someone special in your city or on the other side of the world"
             },
             "1": {
                 "title": "Free sign up with daily benefits",
-                "desc": "Create your profile and receive free limits every day to find your match"
+                "desc": "Create your profile and receive free daily limits to find your match"
             },
             "2": {
-                "title": "Advanced messaging for meaningful conversations",
-                "desc": "Features that make it easier to get to know someone deeply"
+                "title": "Built-in real-time translation",
+                "desc": "Chat without language barriers with automatic message translation"
             },
             "3": {
-                "title": "Safe and faith-centered environment",
-                "desc": "Moderated community focused on serious relationships"
+                "title": "Safe and verified environment",
+                "desc": "Moderated community with identity verification and a focus on respect"
             }
         }
     },
     "howItWorks": {
         "tag": "3 Simple Steps",
         "title": "How It <span class=\"gradient-text\">Works</span>",
-        "desc": "Start your journey on Dualis right now",
+        "desc": "Start your journey on Luma right now",
         "steps": {
             "0": {
                 "title": "Create your profile",
                 "desc": "Sign up easily and add your best photos"
             },
             "1": {
-                "title": "View Christian profiles",
-                "desc": "Browse profiles aligned with your faith and values"
+                "title": "Explore global profiles",
+                "desc": "Browse profiles of amazing people from around the world"
             },
             "2": {
                 "title": "Start chatting",
-                "desc": "Send messages or interests and start real connections"
+                "desc": "Send messages, break the ice and start real connections"
             }
         },
         "ctaBtn": "Start Now"
     },
     "denominations": {
-        "tag": "Your Community",
-        "title": "Christian <span class=\"gradient-text\">Dating</em> Community",
-        "desc": "Connect with Christians from your denomination:",
+        "tag": "🌍 Your story starts here",
+        "title": "Every connection is a <span class=\"gradient-text\">new adventure</span>",
+        "desc": "Love knows no borders — and on Luma, every conversation could be the start of something extraordinary",
         "items": {
             "0": {
-                "title": "Catholic",
-                "desc": "Thousands of Catholics seeking connections"
+                "title": "Love that crosses oceans",
+                "desc": "Connect with people from different cultures and live a story that transcends borders"
             },
             "1": {
-                "title": "Protestant / Evangelical",
-                "desc": "Vibrant community of Protestants and Evangelicals"
+                "title": "Discover new cultures",
+                "desc": "Every conversation is a journey — discover traditions, languages, and different perspectives"
             },
             "2": {
-                "title": "Orthodox",
-                "desc": "Eastern Christian tradition and faith"
+                "title": "No language barriers",
+                "desc": "Real-time translation so that distance and language are never obstacles"
             },
             "3": {
-                "title": "Other Denominations",
-                "desc": "Baptist, Presbyterian, Lutheran and many others"
+                "title": "Your next adventure",
+                "desc": "Love could be just one swipe away — anywhere in the world"
             }
         }
     },
     "features": {
         "tag": "Features",
         "title": "Everything For <span class=\"gradient-text\">Real Connections</span>",
-        "desc": "A safe, respectful environment designed for Christians",
+        "desc": "A safe, respectful environment designed to connect cultures",
         "items": {
             "0": {
-                "title": "Interest by Values",
-                "desc": "Smart algorithm that connects people with similar values and faith"
+                "title": "Affinity Matching",
+                "desc": "Smart algorithm that connects people with compatible interests and values"
             },
             "1": {
-                "title": "Safe Chat",
-                "desc": "Chat peacefully in a moderated and respectful environment"
+                "title": "Chat with Translation",
+                "desc": "Chat without barriers with built-in automatic translation"
             },
             "2": {
                 "title": "Verified Profiles",
-                "desc": "Verification system to guarantee real and committed people"
+                "desc": "Verification system to ensure real and authentic people"
             },
             "3": {
-                "title": "Advanced Filters",
-                "desc": "Find by denomination, age, location and interests"
+                "title": "Global Filters",
+                "desc": "Find by country, language, age, location and interests"
             }
         }
     },
     "stories": {
         "tag": "Success Stories",
-        "title": "Real people finding <span class=\"gradient-text\">true love</span>",
-        "desc": "We share stories of users who found their ideal match through Dualis",
+        "title": "Real people finding <span class=\"gradient-text\">love without borders</span>",
+        "desc": "Inspiring stories of couples who met on Luma",
         "items": {
             "0": {
-                "quote": "\"We met on Dualis and from the first conversation we felt a special connection. Today we are engaged and planning our church wedding!\"",
-                "author": "Fernanda & Ricardo",
-                "location": "Catholics • São Paulo"
+                "quote": "\"We met on Luma and, even with the distance and different languages, the connection was instant. After months of chatting, we finally met in person. It was magical!\"",
+                "author": "Mariana & James",
+                "location": "🌍 International Connection"
             },
             "1": {
-                "quote": "\"After years looking for someone who shared my faith, I found Lucas. He is the answer to my prayers!\"",
-                "author": "Camila & Lucas",
-                "location": "Protestants • Rio de Janeiro"
+                "quote": "\"I never imagined I'd find someone so special on the other side of the world. Luma connected me with the person I was always looking for.\"",
+                "author": "Camila & David",
+                "location": "✈️ Separated by an ocean, united by love"
             },
             "2": {
-                "quote": "\"I loved being able to filter by denomination! I found people who understand my faith and my values. I made amazing friends!\"",
-                "author": "Juliana Santos",
-                "location": "Assembly of God • Belo Horizonte"
+                "quote": "\"The automatic translation was incredible! Even without speaking the same language at first, we got to know each other deeply. Now we're planning our future together.\"",
+                "author": "Ana & Miguel",
+                "location": "💬 Translation brought our hearts together"
             },
             "3": {
-                "quote": "\"After my divorce, I thought I wouldn't find anyone. Dualis showed me that God still had plans for me. I found my Maria!\"",
-                "author": "Roberto & Maria",
-                "location": "Catholics • Curitiba"
+                "quote": "\"After a tough period, Luma showed me that love knows no distances. I found my person in a place I never imagined!\"",
+                "author": "Laura & Daniel",
+                "location": "🧭 Love found a way"
             },
             "4": {
-                "quote": "\"Unlike other apps, people here are really looking for something serious. The environment is respectful and centered on faith.\"",
-                "author": "Pedro Almeida",
-                "location": "Baptist • Salvador"
+                "quote": "\"Unlike other apps, Luma has people who truly want something serious. Profile verification and the international community make all the difference.\"",
+                "author": "Lucas F.",
+                "location": "🌎 Found love beyond borders"
             }
         },
         "socialProof": {
-            "rating": "4.8★",
+            "rating": "4.7★",
             "label": "Play Store Rating"
         }
     },
     "download": {
         "tag": "Start Today",
         "title": "Start on the <span class=\"gradient-text\">Free Plan</span>",
-        "desc1": "Download now and connect with amazing Christians from your denomination.",
-        "desc2": "We believe love should be accessible. That's why on the Free Plan you have:",
+        "desc1": "Download now and connect with amazing people around the world.",
+        "desc2": "We believe love has no borders. That's why on the Free Plan you have:",
         "features": {
             "0": {
                 "title": "10 \"Hellos\" per day",
@@ -154,7 +154,7 @@
             },
             "1": {
                 "title": "Swipe through 50 profiles daily",
-                "desc": "to find your match."
+                "desc": "to find your perfect match."
             },
             "2": {
                 "title": "Reveal 1 \"Like\" per day",
@@ -180,15 +180,15 @@
         "sections": {
             "1": {
                 "title": "1. Acceptance of Terms",
-                "p": "By downloading, installing, or using the Dualis application (\"Service\"), you agree to abide by these Terms of Use. If you do not agree to any of these terms, you should not use the application."
+                "p": "By downloading, installing, or using the Luma application (\"Service\"), you agree to abide by these Terms of Use. If you do not agree to any of these terms, you should not use the application."
             },
             "2": {
                 "title": "2. Purpose of the Application",
-                "p": "Dualis is a platform designed to foster friendships and serious relationships among people in the Christian community. All users are expected to maintain respectful conduct aligned with Christian values."
+                "p": "Luma is a platform designed to foster connections and serious relationships among people from different countries and cultures. All users are expected to maintain respectful conduct."
             },
             "3": {
                 "title": "3. Eligibility",
-                "p": "To use Dualis, you must be at least 18 years old and have full civil capacity. By creating an account, you declare and warrant that you meet these requirements."
+                "p": "To use Luma, you must be at least 18 years old and have full civil capacity. By creating an account, you declare and warrant that you meet these requirements."
             },
             "4": {
                 "title": "4. User Conduct",
@@ -218,20 +218,20 @@
         "sections": {
             "1": {
                 "title": "1. Introduction",
-                "p": "Dualis respects your privacy and is committed to protecting the personal data you share with us. This policy describes how we collect, use, and protect your information."
+                "p": "Luma respects your privacy and is committed to protecting the personal data you share with us. This policy describes how we collect, use, and protect your information."
             },
             "2": {
                 "title": "2. Information We Collect",
-                "li1": "<strong>Profile Information:</strong> Name, age, photos, religious denomination, and description.",
+                "li1": "<strong>Profile Information:</strong> Name, age, photos, nationality, and description.",
                 "li2": "<strong>Usage Data:</strong> Interactions with other users, matches, and messages.",
                 "li3": "<strong>Technical Data:</strong> IP address, device type, and operating system.",
-                "p": "We collect information about your religious denomination strictly to connect you with compatible profiles, in line with the application's objective."
+                "p": "We collect information about your location and preferences to connect you with compatible profiles around the world."
             },
             "3": {
                 "title": "3. How We Use Your Data",
                 "p": "We use your information to:",
                 "li1": "Create and manage your account.",
-                "li2": "Suggest compatible matches based on your denomination and preferences.",
+                "li2": "Suggest compatible matches based on your preferences and location.",
                 "li3": "Ensure platform security and prevent fraud.",
                 "li4": "Improve our services and develop new features."
             },
@@ -257,7 +257,7 @@
     },
     "security": {
         "title": "Child Safety Standards (CSAE)",
-        "alertBox": "Dualis maintains a zero-tolerance policy against any form of Child Sexual Abuse and Exploitation (CSAE).",
+        "alertBox": "Luma maintains a zero-tolerance policy against any form of Child Sexual Abuse and Exploitation (CSAE).",
         "introP": "The safety of our community is our top priority. We are committed to combating child sexual exploitation online and work actively to prevent, detect, and remove any child abuse-related content from our platform.",
         "sections": {
             "1": {
@@ -271,7 +271,7 @@
             },
             "2": {
                 "title": "2. Cooperation with Authorities",
-                "p": "Dualis cooperates fully with law enforcement agencies and child protection organizations, including:",
+                "p": "Luma cooperates fully with law enforcement agencies and child protection organizations, including:",
                 "li1": "<strong>NCMEC (National Center for Missing & Exploited Children):</strong> We proactively report any suspected cases of child exploitation via the CyberTipline.",
                 "li2": "<strong>Local Authorities:</strong> We provide data and collaborate with investigations when requested or when we identify an imminent risk to a child."
             },
@@ -279,7 +279,7 @@
                 "title": "3. Reporting Mechanisms",
                 "p1": "We encourage our community to report any suspicious behavior or content. Our users can report safety violations in the following ways:",
                 "li1": "<strong>In-App:</strong> Use the \"Report\" option available on user profiles or specific posts.",
-                "li2": "<strong>By Email:</strong> Contact our safety team directly at <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--primary);\">dualis.love.app@gmail.com</a>.",
+                "li2": "<strong>By Email:</strong> Contact our safety team directly at <a href=\"mailto:luma.app.contact@gmail.com\" style=\"color: var(--primary);\">luma.app.contact@gmail.com</a>.",
                 "p2": "All reports are handled with priority and urgency."
             },
             "4": {
@@ -302,25 +302,25 @@
         "title": "Account and Data Deletion",
         "heroTitle1": "Deletion of ",
         "heroTitle2": "Account and Data",
-        "heroSubtitle": "Learn how to request the deletion of your account on the Dualis app",
+        "heroSubtitle": "Learn how to request the deletion of your account on the Luma app",
         "sections": {
             "1": {
                 "title": "How to request deletion",
-                "intro": "<strong>Dualis</strong> values your privacy and offers full control over your data. If you wish to permanently delete your account and all associated data, follow the steps below:",
+                "intro": "<strong>Luma</strong> values your privacy and offers full control over your data. If you wish to permanently delete your account and all associated data, follow the steps below:",
                 "step1Title": "Send your request",
-                "step1Desc": "Click the button below or send an email directly to <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--accent);\">dualis.love.app@gmail.com</a>.",
+                "step1Desc": "Click the button below or send an email directly to <a href=\"mailto:luma.app.contact@gmail.com\" style=\"color: var(--accent);\">luma.app.contact@gmail.com</a>.",
                 "step2Title": "Identification",
                 "step2Desc": "In the email subject, write \"Account Deletion\". In the body, provide the email address associated with your account on the application.",
                 "step3Title": "Confirmation",
                 "step3Desc": "Our team will process your request and permanently remove your data within 7 business days.",
                 "btnText": "Request Deletion by Email",
-                "btnSubject": "Dualis Account Deletion",
+                "btnSubject": "Luma Account Deletion",
                 "btnBody": "Hello, I would like to request the deletion of my account. My registered email is: "
             },
             "2": {
                 "title": "Which data gets deleted?",
                 "intro": "Upon processing your request, the following data will be permanently removed from our servers:",
-                "li1": "Profile information (name, bio, age, denomination)",
+                "li1": "Profile information (name, bio, age, nationality)",
                 "li2": "Uploaded photos and images",
                 "li3": "Message and chat history",
                 "li4": "Match and like history",
@@ -342,14 +342,14 @@
         "downloadApp": "Download App"
     },
     "footer": {
-        "brandDesc": "Connecting Christians with love and faith.",
+        "brandDesc": "Connecting people worldwide with love and respect.",
         "links": {
             "terms": "Terms of Use",
             "privacy": "Privacy",
             "security": "Security (CSAE)",
             "contact": "Contact"
         },
-        "copyright": "© 2026 Dualis. All rights reserved. Made with ❤️ and faith."
+        "copyright": "© 2026 Luma. All rights reserved. For users 18 and older only."
     },
     "alert": {
         "webSoon": "The Web version will be available soon!\\n\\nFor now, enjoy our Android app."

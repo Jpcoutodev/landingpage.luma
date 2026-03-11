@@ -3,7 +3,7 @@
  * Maps languages to file names and provides the base URL for SEO.
  */
 
-const BASE_URL = 'https://dualis.love';
+const BASE_URL = 'https://luma.app';
 
 const LANGUAGES = [
     { code: 'pt-BR', prefix: '', label: '🇧🇷 PT', isDefault: true },
