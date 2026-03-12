@@ -6,8 +6,8 @@
 const BASE_URL = 'https://luma.app';
 
 const LANGUAGES = [
-    { code: 'pt-BR', prefix: '', label: '🇧🇷 PT', isDefault: true },
-    { code: 'en', prefix: 'en', label: '🇺🇸 EN', isDefault: false },
+    { code: 'en', prefix: '', label: '🇺🇸 EN', isDefault: true },
+    { code: 'pt-BR', prefix: 'br', label: '🇧🇷 PT', isDefault: false },
     { code: 'es', prefix: 'es', label: '🇪🇸 ES', isDefault: false },
 ];
 

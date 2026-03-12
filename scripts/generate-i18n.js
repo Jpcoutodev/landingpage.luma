@@ -130,9 +130,11 @@ function buildHreflangTags(srcFile) {
         const href = `${BASE_URL}/${prefix}${localizedName}`;
         tags.push(`    <link rel="alternate" hreflang="${lang.code}" href="${href}">`);
     }
-    // x-default points to PT-BR (root)
-    const defaultName = FILE_MAP[srcFile]?.['pt-BR'] || srcFile;
-    tags.push(`    <link rel="alternate" hreflang="x-default" href="${BASE_URL}/${defaultName}">`);
+    // x-default points to default language (root)
+    const defaultLangCode = LANGUAGES.find(l => l.isDefault).code;
+    const defaultName = FILE_MAP[srcFile]?.[defaultLangCode] || srcFile;
+    const defaultPrefix = LANGUAGES.find(l => l.isDefault).prefix ? `${LANGUAGES.find(l => l.isDefault).prefix}/` : '';
+    tags.push(`    <link rel="alternate" hreflang="x-default" href="${BASE_URL}/${defaultPrefix}${defaultName}">`);
     return tags.join('\n');
 }
 
@@ -262,9 +264,11 @@ function generateSitemap() {
     <xhtml:link rel="alternate" hreflang="${altLang.code}" href="${BASE_URL}/${altPrefix}${altName}"/>`;
             }
             // x-default
-            const defaultName = langMap['pt-BR'];
+            const defaultLangCode = LANGUAGES.find(l => l.isDefault).code;
+            const defaultName = langMap[defaultLangCode];
+            const defaultPrefix = LANGUAGES.find(l => l.isDefault).prefix ? `${LANGUAGES.find(l => l.isDefault).prefix}/` : '';
             xml += `
-    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/${defaultName}"/>`;
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/${defaultPrefix}${defaultName}"/>`;
 
             xml += `
   </url>`;
@@ -292,14 +296,18 @@ for (const srcFile of sourceFiles) {
 
     let originalHtml = fs.readFileSync(srcPath, 'utf-8');
 
-    // ── Process PT-BR (root) ──
-    // Just inject hreflang and replace selector with static links
-    let ptHtml = originalHtml;
-    ptHtml = injectHreflang(ptHtml, srcFile);
-    ptHtml = replaceLangSelector(ptHtml, srcFile, 'pt-BR');
-    ptHtml = removeI18nScript(ptHtml);
-    fs.writeFileSync(srcPath, ptHtml, 'utf-8');
-    console.log(`  ✅ PT-BR: ${srcFile} (hreflang + static links)`);
+    // ── Process Default Language (root) ──
+    const defaultLang = LANGUAGES.find(l => l.isDefault);
+    let rootHtml = originalHtml;
+    rootHtml = replaceDataI18n(rootHtml, defaultLang.code);
+    rootHtml = updateHtmlLang(rootHtml, defaultLang.code);
+    rootHtml = updateTitle(rootHtml, defaultLang.code);
+    rootHtml = injectHreflang(rootHtml, srcFile);
+    rootHtml = replaceLangSelector(rootHtml, srcFile, defaultLang.code);
+    rootHtml = updateInternalLinks(rootHtml, defaultLang.code);
+    rootHtml = removeI18nScript(rootHtml);
+    fs.writeFileSync(srcPath, rootHtml, 'utf-8');
+    console.log(`  ✅ ${defaultLang.code.toUpperCase()}: ${srcFile} (hreflang + static links)`);
 
     // ── Process other languages ──
     for (const lang of LANGUAGES) {
