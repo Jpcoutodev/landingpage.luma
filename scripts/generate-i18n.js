@@ -185,27 +185,26 @@ function replaceLangSelector(html, srcFile, currentLangCode) {
  * Update internal links to point to localized versions
  */
 function updateInternalLinks(html, langCode) {
-    if (langCode === 'pt-BR') return html; // Root pages keep their links
-
     const prefix = LANGUAGES.find(l => l.code === langCode)?.prefix;
-    if (!prefix) return html;
+    const pathPrefix = prefix ? `/${prefix}/` : `/`;
 
     // Update href links to other pages
     for (const [srcFile, langMap] of Object.entries(FILE_MAP)) {
-        const ptName = langMap['pt-BR'];
+        // Source files use pt-BR names in hrefs initially (e.g. termos.html)
+        const sourceName = langMap['pt-BR'];
         const localizedName = langMap[langCode];
 
-        // Replace href="termos.html" with href="/en/terms.html"
+        // Replace href="termos.html" with href="/terms.html" or href="/br/termos.html"
         html = html.replace(
-            new RegExp(`href="${escapeRegex(ptName)}"`, 'g'),
-            `href="/${prefix}/${localizedName}"`
+            new RegExp(`href="${escapeRegex(sourceName)}"`, 'g'),
+            `href="${pathPrefix}${localizedName}"`
         );
 
         // Also handle href="index.html" and href="index.html#download"
         if (srcFile === 'index.html') {
             html = html.replace(
                 new RegExp(`href="index\\.html(#[^"]*)"`, 'g'),
-                `href="/${prefix}/index.html$1"`
+                `href="${pathPrefix}index.html$1"`
             );
         }
     }
