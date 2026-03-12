@@ -207,8 +207,8 @@
                         <li>
                             <strong data-i18n="deleteAccount.sections.1.step1Title">Envie sua solicitação</strong>
                             <p data-i18n="deleteAccount.sections.1.step1Desc">Clique no botão abaixo ou envie um e-mail
-                                diretamente para <a href="mailto:dualis.love.app@gmail.com"
-                                    style="color: var(--accent);">dualis.love.app@gmail.com</a>.</p>
+                                diretamente para <a href="mailto:luma.app.love@gmail.com"
+                                    style="color: var(--accent);">luma.app.love@gmail.com</a>.</p>
                         </li>
                         <li>
                             <strong data-i18n="deleteAccount.sections.1.step2Title">Identificação</strong>
@@ -224,7 +224,7 @@
 
                     <div style="text-align: center;">
                         <a id="delete-email-btn"
-                            href="mailto:dualis.love.app@gmail.com?subject=Exclusão de Conta Dualis&body=Olá, gostaria de solicitar a exclusão da minha conta. Meu e-mail cadastrado é: "
+                            href="mailto:luma.app.love@gmail.com?subject=Exclusão de Conta Luma&body=Olá, gostaria de solicitar a exclusão da minha conta. Meu e-mail cadastrado é: "
                             class="delete-btn" data-i18n="deleteAccount.sections.1.btnText">
                             Solicitar Exclusão por E-mail
                         </a>
@@ -275,7 +275,7 @@
                     <a href="termos.html" data-i18n="footer.links.terms">Termos de Uso</a>
                     <a href="privacidade.html" data-i18n="footer.links.privacy">Privacidade</a>
                     <a href="seguranca.html" data-i18n="footer.links.security">Segurança (CSAE)</a>
-                    <a href="mailto:dualis.love.app@gmail.com" data-i18n="footer.links.contact">Contato</a>
+                    <a href="mailto:luma.app.love@gmail.com" data-i18n="footer.links.contact">Contato</a>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -291,9 +291,9 @@
             const btn = document.getElementById('delete-email-btn');
             if (btn && window.i18next) {
                 const updateLink = () => {
-                    const subject = window.i18next.t('deleteAccount.sections.1.btnSubject', { defaultValue: 'Exclusão de Conta Dualis' });
+                    const subject = window.i18next.t('deleteAccount.sections.1.btnSubject', { defaultValue: 'Exclusão de Conta Luma' });
                     const body = window.i18next.t('deleteAccount.sections.1.btnBody', { defaultValue: 'Olá, gostaria de solicitar a exclusão da minha conta. Meu e-mail cadastrado é: ' });
-                    btn.href = `mailto:dualis.love.app@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                    btn.href = `mailto:luma.app.love@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
                 };
                 window.i18next.on('languageChanged', updateLink);
                 // Also update on initial load if possible, we wait a bit for i18next to initialize

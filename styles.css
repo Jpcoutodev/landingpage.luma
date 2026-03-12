@@ -136,7 +136,7 @@ body {
 }
 
 .logo-img {
-    height: 45px;
+    height: 90px;
     width: auto;
     padding: 4px 10px;
     border-radius: 8px;
@@ -320,6 +320,14 @@ body {
     transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
     overflow: hidden;
     padding: 0.4rem;
+}
+
+@media (max-width: 768px) {
+    .lang-selector-menu {
+        right: auto;
+        left: 0;
+        min-width: 160px;
+    }
 }
 
 .lang-selector-menu.visible {
