@@ -305,8 +305,16 @@ for (const srcFile of sourceFiles) {
     rootHtml = replaceLangSelector(rootHtml, srcFile, defaultLang.code);
     rootHtml = updateInternalLinks(rootHtml, defaultLang.code);
     rootHtml = removeI18nScript(rootHtml);
-    fs.writeFileSync(srcPath, rootHtml, 'utf-8');
-    console.log(`  ✅ ${defaultLang.code.toUpperCase()}: ${srcFile} (hreflang + static links)`);
+
+    // Rename the file to its localized name for the default language (e.g. termos.html → terms.html)
+    const defaultFileName = FILE_MAP[srcFile][defaultLang.code];
+    const defaultOutPath = path.join(DIST_DIR, defaultFileName);
+    fs.writeFileSync(defaultOutPath, rootHtml, 'utf-8');
+    // Remove the original PT-named file if it differs from the localized name
+    if (defaultFileName !== srcFile && fs.existsSync(srcPath)) {
+        fs.unlinkSync(srcPath);
+    }
+    console.log(`  ✅ ${defaultLang.code.toUpperCase()}: ${defaultFileName} (hreflang + static links)`);
 
     // ── Process other languages ──
     for (const lang of LANGUAGES) {
