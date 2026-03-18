@@ -1833,6 +1833,11 @@ body {
         font-size: 2.25rem;
     }
 
+    .btn-gold.btn-lg {
+        padding: 0.85rem 1.75rem;
+        font-size: 0.95rem;
+    }
+
     .section {
         padding: 60px 0;
     }
