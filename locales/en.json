@@ -1,85 +1,59 @@
 {
     "meta": {
-        "title": "Luma | International Dating & Relationship App",
-        "desc": "Luma: The best international dating app. Connect with people worldwide, find love beyond borders. Free and safe.",
-        "ogTitle": "Luma | Love Beyond Borders",
-        "ogDesc": "Find real connections around the world! Free app for serious and authentic international relationships.",
-        "keywords": "international dating app, dating abroad, global dating, cross-cultural dating, love without borders, multicultural relationship, luma app"
+        "title": "Luma | The World is Your Dating Pool",
+        "desc": "Luma: The premium international dating app. Join the elite and find serious connections beyond borders. Founding Members get 1 year VIP Gold free.",
+        "ogTitle": "Luma | The World is Your Dating Pool. Join the Elite.",
+        "ogDesc": "Experience international connections without borders. Claim your 1 Year Free VIP as a Founding Member. Limited spots available.",
+        "keywords": "premium dating app, international dating, elite dating, global connections, love without borders, founding member, luma app, VIP dating"
     },
     "nav": {
-        "denominations": "Destinations",
-        "features": "Features",
+        "founding": "Founding Members",
+        "differentials": "Why Luma",
         "stories": "Stories",
-        "downloadBtn": "Download Free"
+        "downloadBtn": "Claim Free VIP"
     },
     "hero": {
-        "title": "The world is vast. Your love could be on the <span class=\"gradient-text-light\">other side</span>",
-        "subtitle": "Cross borders, discover cultures, and find someone who makes your heart beat faster — no matter the distance.",
-        "downloadBtn": "Download Now",
+        "ageBadge": "Adults only",
+        "title": "The World is Your Dating Pool. <span class=\"gradient-text-light\">Join the Elite.</span>",
+        "subtitle": "Experience international connections without borders. Luma is the premium bridge between local hearts and global dreams.",
+        "ctaBtn": "Claim My 1 Year Free VIP Access",
         "scroll": "Scroll to discover"
     },
-    "benefits": {
-        "tag": "✈️ Your passport to love",
-        "title": "Connections that <span class=\"gradient-text\">cross oceans</span>",
-        "items": {
-            "0": {
-                "title": "Real people from diverse cultures",
-                "desc": "Find someone special in your city or on the other side of the world"
-            },
-            "1": {
-                "title": "Free sign up with daily benefits",
-                "desc": "Create your profile and receive free daily limits to find your match"
-            },
-            "2": {
-                "title": "Built-in real-time translation",
-                "desc": "Chat without language barriers with automatic message translation"
-            },
-            "3": {
-                "title": "Safe and verified environment",
-                "desc": "Moderated community with identity verification and a focus on respect"
-            }
-        }
-    },
-    "howItWorks": {
-        "tag": "3 Simple Steps",
-        "title": "How It <span class=\"gradient-text\">Works</span>",
-        "desc": "Start your journey on Luma right now",
-        "steps": {
-            "0": {
-                "title": "Create your profile",
-                "desc": "Sign up easily and add your best photos"
-            },
-            "1": {
-                "title": "Explore global profiles",
-                "desc": "Browse profiles of amazing people from around the world"
-            },
-            "2": {
-                "title": "Start chatting",
-                "desc": "Send messages, break the ice and start real connections"
-            }
+    "founding": {
+        "tag": "👑 Exclusive Launch Offer",
+        "title": "The Founding <span class=\"gradient-text\">Members Club</span>",
+        "desc": "Be among the first to shape the Luma community and enjoy exclusive benefits",
+        "badge": "Limited Spots Available",
+        "cardTitle": "Limited Launch Offer: <span class=\"price-highlight\">$0 for 12 Months</span>",
+        "cardDesc": "We are selecting the first 500 users to shape the Luma community. Complete your profile today and automatically receive 1 year of VIP Gold subscription (valued at $199) at no cost.",
+        "pricePeriod": "for 12 months",
+        "spotsText": "<strong>347</strong> of 500 spots remaining",
+        "benefits": {
+            "0": "Unlimited daily matches",
+            "1": "Founding Member badge",
+            "2": "Priority global visibility",
+            "3": "Unlimited messages",
+            "4": "Advanced privacy controls",
+            "5": "See who liked you"
         },
-        "ctaBtn": "Start Now"
+        "ctaBtn": "Claim My Free VIP Now"
     },
-    "denominations": {
-        "tag": "🌍 Your story starts here",
-        "title": "Every connection is a <span class=\"gradient-text\">new adventure</span>",
-        "desc": "Love knows no borders — and on Luma, every conversation could be the start of something extraordinary",
+    "differentials": {
+        "tag": "Why Luma",
+        "title": "Built for <span class=\"gradient-text\">Global Elite</span>",
+        "desc": "Three pillars that set Luma apart from every other dating app",
         "items": {
             "0": {
-                "title": "Love that crosses oceans",
-                "desc": "Connect with people from different cultures and live a story that transcends borders"
+                "title": "Global Connection",
+                "desc": "Meet verified professionals across the US, Europe, and LATAM. Every profile is curated for quality and authenticity."
             },
             "1": {
-                "title": "Discover new cultures",
-                "desc": "Every conversation is a journey — discover traditions, languages, and different perspectives"
+                "title": "Reciprocal Matching",
+                "desc": "Our algorithm ensures you only see who you want, and only appear for those who match your intent. No noise, only meaningful connections."
             },
             "2": {
-                "title": "No language barriers",
-                "desc": "Real-time translation so that distance and language are never obstacles"
-            },
-            "3": {
-                "title": "Your next adventure",
-                "desc": "Love could be just one swipe away — anywhere in the world"
+                "title": "Privacy First",
+                "desc": "Premium security for high-value individuals. Your data, photos, and conversations are encrypted and protected at every level."
             }
         }
     },
@@ -94,7 +68,7 @@
             },
             "1": {
                 "title": "Chat with Translation",
-                "desc": "Chat without barriers with built-in automatic translation"
+                "desc": "Chat without barriers with built-in i18n integrated translator"
             },
             "2": {
                 "title": "Verified Profiles",
@@ -122,7 +96,7 @@
                 "location": "✈️ Separated by an ocean, united by love"
             },
             "2": {
-                "quote": "\"The automatic translation was incredible! Even without speaking the same language at first, we got to know each other deeply. Now we're planning our future together.\"",
+                "quote": "\"The i18n integrated translator was incredible! Even without speaking the same language at first, we got to know each other deeply. Now we're planning our future together.\"",
                 "author": "Ana & Miguel",
                 "location": "💬 Translation brought our hearts together"
             },
@@ -142,36 +116,21 @@
             "label": "Play Store Rating"
         }
     },
-    "download": {
-        "tag": "Start Today",
-        "title": "Start on the <span class=\"gradient-text\">Free Plan</span>",
-        "desc1": "Download now and connect with amazing people around the world.",
-        "desc2": "We believe love has no borders. That's why on the Free Plan you have:",
-        "features": {
-            "0": {
-                "title": "10 \"Hellos\" per day",
-                "desc": "to start conversations with someone you like."
-            },
-            "1": {
-                "title": "Swipe through 50 profiles daily",
-                "desc": "to find your perfect match."
-            },
-            "2": {
-                "title": "Reveal 1 \"Like\" per day",
-                "desc": "(discover who liked you)."
-            },
-            "3": {
-                "title": "Automatic Renewal",
-                "desc": "After 24 hours, your limits are renewed."
-            }
+    "roadmap": {
+        "tag": "Download Now",
+        "title": "Get <span class=\"gradient-text\">Luma</span> Today",
+        "desc": "Start your international journey now. Your Founding Member status is waiting.",
+        "android": {
+            "status": "Available Now",
+            "desc": "Download now from Google Play and claim your Founding Member status with 1 year of VIP Gold free.",
+            "storeSmall": "Available on",
+            "storeStrong": "Google Play"
         },
-        "storeBtn": {
-            "labelSmall": "Available on",
-            "labelStrong": "Google Play"
-        },
-        "webBtn": {
-            "labelSmall": "Access Now",
-            "labelStrong": "Web Version"
+        "ios": {
+            "status": "Coming Soon",
+            "desc": "Sign up to be notified when Luma launches on the App Store and save your Founding Member spot.",
+            "placeholder": "your@email.com",
+            "notifyBtn": "Notify Me"
         }
     },
     "terms": {
@@ -342,14 +301,30 @@
         "downloadApp": "Download App"
     },
     "footer": {
-        "brandDesc": "Connecting people worldwide with love and respect.",
+        "brandDesc": "Premium international connections. Love beyond borders.",
         "links": {
             "terms": "Terms of Use",
-            "privacy": "Privacy",
+            "privacy": "Privacy Policy",
             "security": "Security (CSAE)",
             "contact": "Contact"
         },
-        "copyright": "© 2026 Luma. All rights reserved. For users 18 and older only."
+        "copyright": "&copy; 2026 Luma. All rights reserved. For users 18 and older only.",
+        "ageNote": "This app is exclusively for users aged 18 and above."
+    },
+    "announcement": {
+        "text": "NEW — The app that is revolutionizing international dating is here",
+        "cta": "Join Now →"
+    },
+    "revolution": {
+        "badge": "🚀 Launching Worldwide",
+        "title": "Dating is broken.<br><span class=\"gradient-text\">We're fixing it.</span>",
+        "desc": "Forget shallow swipes and fake profiles. Luma connects real, verified professionals across 3 continents with AI-powered matching, real-time i18n translator, and military-grade privacy. This is not just another dating app — this is the future.",
+        "stats": {
+            "countries": "Countries",
+            "languages": "Languages",
+            "continents": "Continents"
+        },
+        "ctaBtn": "Be Part of the Revolution"
     },
     "alert": {
         "webSoon": "The Web version will be available soon!\\n\\nFor now, enjoy our Android app."

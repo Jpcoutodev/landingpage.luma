@@ -24,6 +24,12 @@ function updateContent() {
         }
     });
 
+    // Handle placeholder translations
+    document.querySelectorAll("[data-i18n-placeholder]").forEach(element => {
+        const key = element.getAttribute("data-i18n-placeholder");
+        element.setAttribute('placeholder', i18next.t(key));
+    });
+
     // Specific handler for document title
     document.title = i18next.t("meta.title");
     document.documentElement.lang = i18next.resolvedLanguage?.split('-')[0] || 'en';
